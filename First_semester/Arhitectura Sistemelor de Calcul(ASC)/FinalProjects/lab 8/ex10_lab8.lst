@@ -1,0 +1,93 @@
+     1                                  ;10. Sa se citeasca de la tastatura un nume de fisier si un text. Sa se creeze un fisier cu numele dat in directorul curent si sa se scrie textul in acel fisier. Observatii: Numele de fisier este de maxim 30 de cara
+     2                                  
+     3                                  bits 32
+     4                                  global start
+     5                                  
+     6                                  extern exit, printf, scanf, fopen, fclose, fprintf
+     7                                  import exit msvcrt.dll
+     8                                  import printf msvcrt.dll
+     9                                  import scanf msvcrt.dll
+    10                                  import fopen msvcrt.dll
+    11                                  import fclose msvcrt.dll
+    12                                  import fprintf msvcrt.dll
+    13                                        
+    14                                  segment data use32 class=data
+    15 00000000 4461746920756E206E-         text1 db "Dati un nume fisierului: ", 0
+    15 00000009 756D65206669736965-
+    15 00000012 72756C75693A2000   
+    16 0000001A 496E74726F64756365-         text2 db "Introduceti textul pe care doriti sa il vedeti in fisier: ", 0
+    16 00000023 74692074657874756C-
+    16 0000002C 207065206361726520-
+    16 00000035 646F72697469207361-
+    16 0000003E 20696C207665646574-
+    16 00000047 6920696E2066697369-
+    16 00000050 65723A2000         
+    17 00000055 257300                      Format db "%s", 0
+    18 00000058 7700                        mod_acces db "w", 0
+    19                                      
+    20 0000005A FFFFFFFF                    descriptor dd -1
+    21                                      
+    22                                      len equ 30
+    23 0000005E 00000000<rept>              numeFisier times len dd 0
+    24                                      
+    25                                      len1 equ 120
+    26 000000D6 00000000<rept>              textFisier times len1 dd 0
+    27                                  
+    28                                  segment code use32 class=code
+    29                                  start:
+    30                                      
+    31                                      ; afisam pe ecran mesajul pentru utilizator
+    32 00000000 68[00000000]                push dword text1
+    33 00000005 FF15[00000000]              call [printf]
+    34 0000000B 83C404                      add esp, 4*1
+    35                                   
+    36                                      ; citim numele fisierului de la tastatura
+    37 0000000E 68[5E000000]                push dword numeFisier
+    38 00000013 68[55000000]                push Format
+    39 00000018 FF15[00000000]              call [scanf]
+    40 0000001E 83C408                      add esp, 4*2
+    41                                      
+    42                                      
+    43                                      ; se creeaza fisierul si se deschide in modul de citire
+    44 00000021 68[58000000]                push dword mod_acces
+    45 00000026 68[5E000000]                push dword numeFisier
+    46 0000002B FF15[00000000]              call [fopen]
+    47 00000031 83C408                      add esp, 4*2
+    48                                      
+    49                                      
+    50                                      ; salvam valoarea returnata de fopen in variabila descriptor
+    51 00000034 A3[5A000000]                mov [descriptor], eax
+    52                                      
+    53                                      ; verificam daca functia fopen a creat cu succes fisierul(daca EAX != 0)
+    54 00000039 83F800                      cmp eax, 0
+    55 0000003C 7444                        je final
+    56                                      
+    57                                      
+    58                                      ; afisam pe ecran mesajul pentru utilizator
+    59 0000003E 68[1A000000]                push dword text2
+    60 00000043 FF15[00000000]              call [printf]
+    61 00000049 83C404                      add esp, 4*1
+    62                                   
+    63                                      ; citim textul pe care dorim sa il introducem in fisier
+    64 0000004C 68[D6000000]                push dword textFisier
+    65 00000051 68[55000000]                push Format
+    66 00000056 FF15[00000000]              call [scanf]
+    67 0000005C 83C408                      add esp, 4*2
+    68                                      
+    69                                      
+    70                                      ; scriem textul in fisierul deschis folosid functia fprintf
+    71 0000005F 68[D6000000]                push dword textFisier
+    72 00000064 FF35[5A000000]              push dword [descriptor]
+    73 0000006A FF15[00000000]              call [fprintf]
+    74 00000070 83C408                      add esp, 4*2
+    75                                      
+    76                                      
+    77                                      ; inchidem fisierul prin apelarea functiei fclose
+    78 00000073 FF35[5A000000]              push dword [descriptor]
+    79 00000079 FF15[00000000]              call [fclose]
+    80 0000007F 83C404                      add esp, 4*1
+    81                                      
+    82                                      final:
+    83                                      
+    84 00000082 6A00                        push dword 0
+    85 00000084 FF15[00000000]              call [exit]

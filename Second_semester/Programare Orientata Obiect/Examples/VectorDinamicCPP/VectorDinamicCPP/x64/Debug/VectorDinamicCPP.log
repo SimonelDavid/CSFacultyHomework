@@ -1,0 +1,4 @@
+﻿  main.cpp
+  VectorDinamicCPP.vcxproj -> C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\Examples\VectorDinamicCPP\x64\Debug\VectorDinamicCPP.exe
+C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\Examples\VectorDinamicCPP\VectorDinamicCPP\VectDinNewDelete.cpp(20): warning C6385: Reading invalid data from 'elems'.
+C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\Examples\VectorDinamicCPP\VectorDinamicCPP\VectDinNewDelete.cpp(40): warning C6385: Reading invalid data from 'elems'.

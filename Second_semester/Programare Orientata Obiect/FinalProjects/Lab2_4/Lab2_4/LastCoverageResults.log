@@ -1,0 +1,22 @@
+[2022-03-26 15:25:17] [info] Start Program:
+Path:"C:\Users\simon\Documents\Facultate\Laboratoare\Programare Orientata Obiect\Lab2_4\x64\Debug\Lab2_4.exe"
+Arguments:
+Working directory: "C:\Users\simon\Documents\Facultate\Laboratoare\Programare Orientata Obiect\Lab2_4\Lab2_4\"
+Modules: Selected: C:\Users\simon\Documents\Facultate\Laboratoare\Programare Orientata Obiect\Lab2_4\x64\Debug\Lab2_4.exe Excluded: 
+Sources: Selected: C:\Users\simon\Documents\Facultate\Laboratoare\Programare Orientata Obiect\Lab2_4\Lab2_4 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\simon\AppData\Local\Temp\pk2a0klm.auc 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-03-26 15:25:17] [info] Module: C:\Users\simon\Documents\Facultate\Laboratoare\Programare Orientata Obiect\Lab2_4\x64\Debug\Lab2_4.exe is selected because it matches selected pattern: C:\Users\simon\Documents\Facultate\Laboratoare\Programare Orientata Obiect\Lab2_4\x64\Debug\Lab2_4.exe
+[2022-03-26 15:25:18] [info] ----------------------------------------------------
+[2022-03-26 15:25:18] [info] Coverage binary generated in file: C:\Users\simon\AppData\Local\Temp\pk2a0klm.auc
+[2022-03-26 15:25:18] [info] ----------------------------------------------------
+[2022-03-26 15:25:18] [error] Your program stop with error code: 3

@@ -1,0 +1,5 @@
+23,str.Cernei nr.10 Cluj-Napoca,120000,vanzare
+21,str.Independentei nr.29 Deva,250,inchiriere
+5,str.Rapsodiei nr.15 CLuj-Napoca,130000,vanzare
+14,str.Memorandumului nr.6 Cluj-Napoca,500,inchiriere
+10,str.Nasaud nr.40 Cluj-Napoca,122000,vanzare

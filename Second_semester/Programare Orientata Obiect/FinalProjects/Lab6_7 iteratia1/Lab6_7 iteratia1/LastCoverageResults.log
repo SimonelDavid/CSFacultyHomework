@@ -1,0 +1,21 @@
+[2022-04-27 13:49:00] [info] Start Program:
+Path:"C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\FinalProjects\Lab6_7 iteratia1\x64\Debug\Lab6_7 iteratia1.exe"
+Arguments:
+Working directory: "C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\FinalProjects\Lab6_7 iteratia1\Lab6_7 iteratia1\"
+Modules: Selected: C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\FinalProjects\Lab6_7 iteratia1\x64\Debug\Lab6_7 iteratia1.exe Excluded: 
+Sources: Selected: C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\FinalProjects\Lab6_7 iteratia1\Lab6_7 iteratia1 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\simon\AppData\Local\Temp\cqikbxif.nvl 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-04-27 13:49:00] [info] Module: C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\FinalProjects\Lab6_7 iteratia1\x64\Debug\Lab6_7 iteratia1.exe is selected because it matches selected pattern: C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\FinalProjects\Lab6_7 iteratia1\x64\Debug\Lab6_7 iteratia1.exe
+[2022-04-27 13:49:00] [info] ----------------------------------------------------
+[2022-04-27 13:49:00] [info] Coverage binary generated in file: C:\Users\simon\AppData\Local\Temp\cqikbxif.nvl
+[2022-04-27 13:49:00] [info] ----------------------------------------------------

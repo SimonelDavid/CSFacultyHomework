@@ -1,0 +1,9 @@
+vector<Candidat> Service::filterByJob(string name) {
+    vector<Candidat> placi;
+    string job;
+    for(auto &placa : repoCandidati.getAll()) {
+        if (placa.getJob() == job)
+            placi.push_back(placa);
+    }
+    return placi;
+}

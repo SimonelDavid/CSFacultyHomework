@@ -1,0 +1,21 @@
+[2022-05-27 14:52:58] [info] Start Program:
+Path:"C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Structuri de date si algoritmi\FinalProjects\SDA_lab7\x64\Debug\SDA_lab7.exe"
+Arguments:
+Working directory: "C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Structuri de date si algoritmi\FinalProjects\SDA_lab7\SDA_lab7\"
+Modules: Selected: C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Structuri de date si algoritmi\FinalProjects\SDA_lab7\x64\Debug\SDA_lab7.exe Excluded: 
+Sources: Selected: C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Structuri de date si algoritmi\FinalProjects\SDA_lab7\SDA_lab7 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\simon\AppData\Local\Temp\4wmd1g0u.dpx 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-05-27 14:52:58] [info] Module: C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Structuri de date si algoritmi\FinalProjects\SDA_lab7\x64\Debug\SDA_lab7.exe is selected because it matches selected pattern: C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Structuri de date si algoritmi\FinalProjects\SDA_lab7\x64\Debug\SDA_lab7.exe
+[2022-05-27 14:52:59] [info] ----------------------------------------------------
+[2022-05-27 14:52:59] [info] Coverage binary generated in file: C:\Users\simon\AppData\Local\Temp\4wmd1g0u.dpx
+[2022-05-27 14:52:59] [info] ----------------------------------------------------

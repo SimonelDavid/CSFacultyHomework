@@ -1,0 +1,12 @@
+Matricea de adiacenta: 
+4
+0 1 1 0 
+1 0 0 0 
+1 0 0 0 
+0 0 0 0 
+
+Matricea de incidenta: 
+1 0 
+1 0 
+0 1 
+0 0 

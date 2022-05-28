@@ -1,0 +1,17 @@
+[2022-03-26 15:34:09] [info] Start Program:
+Path:"C:\Users\simon\Documents\Facultate\Laboratoare\Programare Orientata Obiect\C_Petstor_vers2\x64\Debug\C_Petstor_vers2.exe"
+Arguments:
+Working directory: "C:\Users\simon\Documents\Facultate\Laboratoare\Programare Orientata Obiect\C_Petstor_vers2\C_Petstor_vers2\"
+Modules: Selected: C:\Users\simon\Documents\Facultate\Laboratoare\Programare Orientata Obiect\C_Petstor_vers2\x64\Debug\Lab2_4.exe Excluded: 
+Sources: Selected: C:\Users\simon\Documents\Facultate\Laboratoare\Programare Orientata Obiect\C_Petstor_vers2\C_Petstor_vers2 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\simon\AppData\Local\Temp\hzaehqyx.q1q 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+

@@ -1,0 +1,3 @@
+Gigel,inginer_electronist,hired,
+Alexandra,inginer_software,pending,
+Mihai,vanzator,rejected,

@@ -1,0 +1,5 @@
+﻿  Source_lab1.c
+C:\Users\simon\Documents\Facultate\Laboratoare\Programare Orientata Obiect\Lab_1\Lab_1\Source_lab1.c(64,31): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\simon\Documents\Facultate\Laboratoare\Programare Orientata Obiect\Lab_1\Lab_1\Source_lab1.c(80,12): warning C4013: '_ui' undefined; assuming extern returning int
+C:\Users\simon\Documents\Facultate\Laboratoare\Programare Orientata Obiect\Lab_1\Lab_1\Source_lab1.c(95,13): warning C4098: '_ui_meniu': 'void' function returning a value
+  Lab_1.vcxproj -> C:\Users\simon\Documents\Facultate\Laboratoare\Programare Orientata Obiect\Lab_1\x64\Debug\Lab_1.exe

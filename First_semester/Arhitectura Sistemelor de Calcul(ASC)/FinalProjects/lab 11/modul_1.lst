@@ -1,0 +1,104 @@
+     1                                  ; 10. Se citesc mai multe siruri de caractere. Sa se determine daca primul apare ca subsecventa in fiecare din celelalte si sa se dea un mesaj corespunzator.
+     2                                  
+     3                                  bits 32
+     4                                  global start
+     5                                  
+     6                                  extern exit, printf, scanf, verifica_siruri
+     7                                  import exit msvcrt.dll     
+     8                                  import printf msvcrt.dll
+     9                                  import scanf msvcrt.dll
+    10                                  
+    11                                  segment data use32 class=data
+    12 00000000 44617469207072696D-         text_1 db "Dati primul sir de caractere: ", 0
+    12 00000009 756C20736972206465-
+    12 00000012 206361726163746572-
+    12 0000001B 653A2000           
+    13 0000001F 446174692075726D61-         text_2 db "Dati urmatoarele siruri de caractere: ", 0
+    13 00000028 746F6172656C652073-
+    13 00000031 697275726920646520-
+    13 0000003A 636172616374657265-
+    13 00000043 3A2000             
+    14 00000046 5072696D756C207369-         text_ok  db "Primul sir se gaseste in toate celelalte siruri.", 0
+    14 0000004F 722073652067617365-
+    14 00000058 73746520696E20746F-
+    14 00000061 6174652063656C656C-
+    14 0000006A 616C74652073697275-
+    14 00000073 72692E00           
+    15 00000077 5072696D756C207369-         test_not_ok db "Primul sir nu se gaseste in toate celelalte siruri", 0
+    15 00000080 72206E752073652067-
+    15 00000089 61736573746520696E-
+    15 00000092 20746F617465206365-
+    15 0000009B 6C656C616C74652073-
+    15 000000A4 697275726900       
+    16 000000AA 01                          verif db 1
+    17 000000AB 257300                      format db "%s", 0
+    18 000000AE <res 00000064>              sir_1 resb 100
+    19 00000112 <res 00000064>              sir  resb 100
+    20                                      
+    21                                  segment code use32 class=code
+    22                                  
+    23                                  
+    24                                      start:
+    25                                          
+    26                                          ; afisam pe ecran mesaj pentru utilizator
+    27 00000000 68[00000000]                    push dword text_1
+    28 00000005 FF15[00000000]                  call [printf]
+    29 0000000B 83C404                          add esp, 4*1
+    30                                      
+    31                                          ; citim primul sir de caractere
+    32 0000000E 68[AE000000]                    push dword sir_1
+    33 00000013 68[AB000000]                    push format
+    34 00000018 FF15[00000000]                  call [scanf]
+    35 0000001E 83C408                          add esp, 4*2
+    36                                  
+    37                                          calculare:
+    38                                              ; afisam pe ecran mesaj pentru utilizator
+    39 00000021 68[1F000000]                        push dword text_2
+    40 00000026 FF15[00000000]                      call [printf]
+    41 0000002C 83C404                              add esp, 4*1
+    42                                          
+    43                                              ; citim primul sir de caractere
+    44 0000002F 68[12010000]                        push dword sir
+    45 00000034 68[AB000000]                        push format
+    46 00000039 FF15[00000000]                      call [scanf]
+    47 0000003F 83C408                              add esp, 4*2
+    48                                              
+    49 00000042 803D[12010000]30                    cmp byte [sir+0], '0'
+    50 00000049 741F                                jz final
+    51                                              
+    52 0000004B 803D[AA000000]00                    cmp byte [verif], 0
+    53 00000052 74CD                                je calculare
+    54                                              
+    55 00000054 68[AE000000]                            push sir_1
+    56 00000059 68[12010000]                            push sir
+    57 0000005E E8(00000000)                            call verifica_siruri
+    58 00000063 A2[AA000000]                            mov [verif], al ; in al avem rezultatul da(1) sau nu(0) este subsirul in sir
+    59                                              
+    60 00000068 EBB7                            jmp calculare
+    61                                      
+    62                                          final:
+    63                                          
+    64                                              ; Se efectueaza verificarea daca primul sir citit se afla in al doilea sir.
+    65 0000006A 803D[AA000000]01                    cmp byte [verif], 1
+    66 00000071 7402                                je afisare_ok
+    67 00000073 7510                                jne afisare_not_ok
+    68                                              
+    69                                              afisare_ok:
+    70                                              
+    71                                                  ; afisam pe ecran mesaj pentru utilizator
+    72 00000075 68[46000000]                            push dword text_ok
+    73 0000007A FF15[00000000]                          call [printf]
+    74 00000080 83C404                                  add esp, 4*1
+    75 00000083 EB0E                                    jmp sfarsit
+    76                                              
+    77                                              afisare_not_ok:
+    78                                              
+    79                                                  ; afisam pe ecran mesaj pentru utilizator
+    80 00000085 68[77000000]                            push dword test_not_ok
+    81 0000008A FF15[00000000]                          call [printf]
+    82 00000090 83C404                                  add esp, 4*1
+    83                                          
+    84                                      sfarsit:
+    85                                      
+    86 00000093 6A00                        push dword 0
+    87 00000095 FF15[00000000]              call [exit]

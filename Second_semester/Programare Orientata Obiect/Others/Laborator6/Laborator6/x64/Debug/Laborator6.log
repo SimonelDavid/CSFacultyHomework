@@ -1,0 +1,80 @@
+﻿  main.cpp
+  Repo.cpp
+C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Laborator6\Laborator6\Repo.cpp(25,27): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Laborator6\Laborator6\Repo.cpp(33,29): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1252)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(482,23): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iosfwd(236): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4997): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::_Insert_string<char,std::char_traits<char>,unsigned __int64>(std::basic_ostream<char,std::char_traits<char>> &,const _Elem *const ,const _SizeT)' being compiled
+          with
+          [
+              _Elem=char,
+              _SizeT=unsigned __int64
+          ]
+C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Laborator6\Laborator6\Repo.cpp(55): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::allocator<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(482,1): error C2065: 'iostate': undeclared identifier
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(482,31): error C2146: syntax error: missing ';' before identifier '_State'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(482,31): error C2065: '_State': undeclared identifier
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(482,49): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iosfwd(236): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(482,1): error C2065: 'goodbit': undeclared identifier
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(485,1): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iosfwd(236): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(488,1): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iosfwd(236): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(491,29): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iosfwd(236): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(491,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(491,36): error C2146: syntax error: missing ';' before identifier '_Ok'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(491,36): error C3861: '_Ok': identifier not found
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(493,10): error C2065: '_Ok': undeclared identifier
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(494,9): error C2065: '_State': undeclared identifier
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(494,28): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iosfwd(236): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(494,1): error C2065: 'badbit': undeclared identifier
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(497,1): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iosfwd(236): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(497,39): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iosfwd(236): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(497,1): error C2065: 'adjustfield': undeclared identifier
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(497,64): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iosfwd(236): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(497,1): error C2065: 'left': undeclared identifier
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(499,1): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iosfwd(236): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(499,1): error C2660: 'std::_Narrow_char_traits<char,int>::eq_int_type': function does not take 1 arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(453,38): message : see declaration of 'std::_Narrow_char_traits<char,int>::eq_int_type'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(500,21): error C2065: '_State': undeclared identifier
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(500,40): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iosfwd(236): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(500,1): error C2065: 'badbit': undeclared identifier
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(506,13): error C2065: '_State': undeclared identifier
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(506,32): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iosfwd(236): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(507,1): error C2065: 'goodbit': undeclared identifier
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(507,1): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iosfwd(236): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(508,13): error C2065: '_State': undeclared identifier
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(508,32): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iosfwd(236): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(508,1): error C2065: 'badbit': undeclared identifier
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(511,1): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iosfwd(236): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(511,1): error C2660: 'std::_Narrow_char_traits<char,int>::eq_int_type': function does not take 1 arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(453,38): message : see declaration of 'std::_Narrow_char_traits<char,int>::eq_int_type'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(512,21): error C2065: '_State': undeclared identifier
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(512,40): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iosfwd(236): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(512,1): error C2065: 'badbit': undeclared identifier
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(518,1): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iosfwd(236): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(519,1): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iosfwd(236): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(519,9): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iosfwd(236): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(519,1): error C2065: 'badbit': undeclared identifier
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(522,1): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\iosfwd(236): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(522,20): error C2065: '_State': undeclared identifier
+  Tests.cpp
+C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Laborator6\Laborator6\Tests.cpp(63,27): warning C4101: 'e': unreferenced local variable
+  Generating Code...

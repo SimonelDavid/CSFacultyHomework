@@ -1,0 +1,22 @@
+[2022-05-26 21:24:53] [info] Start Program:
+Path:"C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\FinalProjects\Lab10_11_iter2\x64\Debug\Lab10_11_iter2.exe"
+Arguments:
+Working directory: "C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\FinalProjects\Lab10_11_iter2\Lab10_11_iter2\"
+Modules: Selected: C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\FinalProjects\Lab10_11_iter2\x64\Debug\Lab10_11_iter2.exe Excluded: 
+Sources: Selected: C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\FinalProjects\Lab10_11_iter2\Lab10_11_iter2 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\simon\AppData\Local\Temp\0pddibru.ouk 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-05-26 21:24:53] [info] Module: C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\FinalProjects\Lab10_11_iter2\x64\Debug\Lab10_11_iter2.exe is selected because it matches selected pattern: C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\FinalProjects\Lab10_11_iter2\x64\Debug\Lab10_11_iter2.exe
+[2022-05-26 21:24:53] [info] ----------------------------------------------------
+[2022-05-26 21:24:53] [info] Coverage binary generated in file: C:\Users\simon\AppData\Local\Temp\0pddibru.ouk
+[2022-05-26 21:24:53] [info] ----------------------------------------------------
+[2022-05-26 21:24:53] [error] Your program stop with error code: -1073741515

@@ -1,0 +1,5 @@
+﻿  Reading Qt configuration (C:/Qt/6.3.0/msvc2019_64/bin/qmake)
+  main.cpp
+  petgui.cpp
+C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\Examples\PetStoreCosUndoGUI\PetStoreCosUndoGUI\petgui.cpp(120,8): error C2039: 'addItem': is not a member of 'QTableWidget'
+C:\Qt\6.3.0\msvc2019_64\include\QtWidgets\qtablewidget.h(214): message : see declaration of 'QTableWidget'

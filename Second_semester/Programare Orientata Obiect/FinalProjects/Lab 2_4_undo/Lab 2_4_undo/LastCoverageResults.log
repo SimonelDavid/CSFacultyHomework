@@ -1,0 +1,21 @@
+[2022-04-08 07:51:38] [info] Start Program:
+Path:"C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab 2_4_undo\x64\Debug\Lab 2_4_undo.exe"
+Arguments:
+Working directory: "C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab 2_4_undo\Lab 2_4_undo\"
+Modules: Selected: C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab 2_4_undo\x64\Debug\Lab 2_4_undo.exe Excluded: 
+Sources: Selected: C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\C_Petstore_vers3\C_Petstore_vers3 C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab 2_4_undo\Lab 2_4_undo Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\simon\AppData\Local\Temp\dkqoxhv5.qgk 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-04-08 07:51:38] [info] Module: C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab 2_4_undo\x64\Debug\Lab 2_4_undo.exe is selected because it matches selected pattern: C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab 2_4_undo\x64\Debug\Lab 2_4_undo.exe
+[2022-04-08 07:51:38] [info] ----------------------------------------------------
+[2022-04-08 07:51:38] [info] Coverage binary generated in file: C:\Users\simon\AppData\Local\Temp\dkqoxhv5.qgk
+[2022-04-08 07:51:38] [info] ----------------------------------------------------

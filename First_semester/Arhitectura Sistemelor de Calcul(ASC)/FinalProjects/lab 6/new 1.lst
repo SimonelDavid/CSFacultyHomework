@@ -1,0 +1,41 @@
+     1                                  ; Cerinta:
+     2                                  ; 10.Se da un sir A de cuvinte. Construiti doua siruri de octeti  
+     3                                  ; - B1: contine ca elemente partea superioara a cuvintelor din A
+     4                                  ; - B2: contine ca elemente partea inferioara a cuvintelor din A
+     5                                  
+     6                                  bits 32
+     7                                  global start        
+     8                                  
+     9                                  extern exit
+    10                                  import exit msvcrt.dll
+    11                                  
+    12                                  segment data use32 class=data 
+    13 00000000 3412785622114433            A dw 1234h, 5678h, 1122h, 3344h
+    14                                      len equ ($-A)/2
+    15 00000008 00<rept>                    B1 times len db 0;12, 56, 11, 33
+    16 0000000C 00<rept>                    B2 times len db 0;34, 78, 22, 44
+    17                                  
+    18                                  segment code use32 class=code
+    19                                      start:
+    20                                      
+    21 00000000 BE[00000000]                mov esi, A
+    22 00000005 BF[08000000]                mov edi, B1
+    23 0000000A B904000000                  mov ecx, len
+    24 0000000F B800000000                  mov eax, 0
+    25                                      repeta:
+    26 00000014 66AD                            lodsw           ;in ax avem pe rand elementele din A
+    27 00000016 88E0                            mov al, ah      ;in al avem cel mai high byte din elementul curent
+    28 00000018 AA                              stosb           ;punem in B1 ce avem in al
+    29 00000019 E2F9                        loop repeta
+    30                                      
+    31 0000001B BE[00000000]                mov esi, A
+    32 00000020 BF[0C000000]                mov edi, B2
+    33 00000025 B904000000                  mov ecx, len
+    34                                      repeta1:
+    35 0000002A 66AD                            lodsw           ;in ax avem pe rand elementele din A
+    36 0000002C AA                              stosb           ;punem in B2 ce avem in al
+    37 0000002D E2FB                        loop repeta1
+    38                                  
+    39                                          
+    40 0000002F 6A00                            push    dword 0
+    41 00000031 FF15[00000000]                  call    [exit]

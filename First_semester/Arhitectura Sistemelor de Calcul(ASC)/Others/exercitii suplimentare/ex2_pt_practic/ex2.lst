@@ -1,0 +1,92 @@
+     1                                  bits 32
+     2                                  global start
+     3                                  
+     4                                  extern exit, printf, scanf, fopen, fprintf, fclose
+     5                                  import exit msvcrt.dll
+     6                                  import printf msvcrt.dll
+     7                                  import scanf msvcrt.dll
+     8                                  import fopen msvcrt.dll
+     9                                  import fprintf msvcrt.dll
+    10                                  import fclose msvcrt.dll
+    11                                  
+    12                                  segment data use32 class=data
+    13 00000000 43697465737465206E-         text1 db "Citeste numele fisierului: ", 0
+    13 00000009 756D656C6520666973-
+    13 00000012 696572756C75693A20-
+    13 0000001B 00                 
+    14 0000001C 436974657374652074-         text2 db "Citeste textul: ", 0
+    14 00000025 657874756C3A2000   
+    15 0000002D <res 00000014>              cuvant resb 20
+    16 00000041 <res 0000000A>              nume_fisier resb 10
+    17 0000004B 6100                        mod_acces db "a", 0
+    18 0000004D 257300                      format db "%s", 0
+    19 00000050 FFFFFFFF                    descriptor_fis dd -1
+    20                                  
+    21                                  segment code use32 class=code
+    22                                      start:
+    23                                      
+    24 00000000 68[00000000]                push dword text1
+    25 00000005 FF15[00000000]              call [printf]
+    26 0000000B 83C404                      add esp, 4*1
+    27                                      
+    28 0000000E 68[41000000]                push dword nume_fisier
+    29 00000013 68[4D000000]                push format
+    30 00000018 FF15[00000000]              call [scanf]
+    31 0000001E 83C408                      add esp, 4*2
+    32                                      
+    33 00000021 68[1C000000]                push dword text2
+    34 00000026 FF15[00000000]              call [printf]
+    35 0000002C 83C404                      add esp, 4*1
+    36                                      
+    37 0000002F 68[2D000000]                push dword cuvant
+    38 00000034 68[4D000000]                push format
+    39 00000039 FF15[00000000]              call [scanf]
+    40 0000003F 83C408                      add esp, 4*2
+    41                                      
+    42 00000042 BE00000000                  mov esi, 0
+    43                                      verifica:
+    44 00000047 80BE[2D000000]00                cmp byte[cuvant+esi], 0
+    45 0000004E 7427                            je afisare
+    46                                          
+    47 00000050 80BE[2D000000]39                cmp byte[cuvant+esi], "9"
+    48 00000057 7E03                            jle creste
+    49 00000059 46                              inc esi
+    50 0000005A EBEB                            jmp verifica
+    51                                      
+    52                                      creste:
+    53 0000005C 80BE[2D000000]30                cmp byte[cuvant+esi], "0"
+    54 00000063 7EE2                            jle verifica
+    55                                          
+    56 00000065 8B9E[2D000000]                  mov ebx, [cuvant+esi]
+    57 0000006B 83C301                          add ebx, 1
+    58 0000006E 899E[2D000000]                  mov [cuvant+esi], ebx
+    59 00000074 46                              inc esi
+    60 00000075 EBD0                            jmp verifica
+    61                                      
+    62                                      afisare:
+    63 00000077 68[4B000000]                    push dword mod_acces     
+    64 0000007C 68[41000000]                    push dword nume_fisier
+    65 00000081 FF15[00000000]                  call [fopen]
+    66 00000087 83C408                          add esp, 4*2                ; eliberam parametrii de pe stiva
+    67                                  
+    68 0000008A A3[50000000]                    mov [descriptor_fis], eax   ; salvam valoarea returnata de fopen in variabila descriptor_fis
+    69                                          
+    70                                          ; verificam daca functia fopen a creat cu succes fisierul (daca EAX != 0)
+    71 0000008F 83F800                          cmp eax, 0
+    72 00000092 7423                            je final
+    73                                          
+    74 00000094 68[2D000000]                    push dword cuvant
+    75 00000099 FF35[50000000]                  push dword [descriptor_fis]
+    76 0000009F FF15[00000000]                  call [fprintf]
+    77 000000A5 83C408                          add esp, 4*2
+    78                                          
+    79                                          ; apelam functia fclose pentru a inchide fisierul
+    80                                          ; fclose(descriptor_fis)
+    81 000000A8 FF35[50000000]                  push dword [descriptor_fis]
+    82 000000AE FF15[00000000]                  call [fclose]
+    83 000000B4 83C404                          add esp, 4
+    84                                  
+    85                                      
+    86                                      final:
+    87 000000B7 6A00                            push    dword 0
+    88 000000B9 FF15[00000000]                  call    [exit]

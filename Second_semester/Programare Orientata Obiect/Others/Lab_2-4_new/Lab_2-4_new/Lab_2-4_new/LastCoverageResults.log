@@ -1,0 +1,21 @@
+[2022-04-01 10:44:45] [info] Start Program:
+Path:"C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\x64\Debug\Lab_2-4_new.exe"
+Arguments:
+Working directory: "C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\Lab_2-4_new\"
+Modules: Selected: C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\x64\Debug\Lab_2-4_new.exe Excluded: 
+Sources: Selected: C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\Lab_2-4_new Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\simon\AppData\Local\Temp\ttutn5xr.3xh 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-04-01 10:44:45] [info] Module: C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\x64\Debug\Lab_2-4_new.exe is selected because it matches selected pattern: C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\x64\Debug\Lab_2-4_new.exe
+[2022-04-01 10:44:45] [info] ----------------------------------------------------
+[2022-04-01 10:44:45] [info] Coverage binary generated in file: C:\Users\simon\AppData\Local\Temp\ttutn5xr.3xh
+[2022-04-01 10:44:45] [info] ----------------------------------------------------

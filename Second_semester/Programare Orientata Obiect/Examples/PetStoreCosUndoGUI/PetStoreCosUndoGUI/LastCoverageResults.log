@@ -1,0 +1,23 @@
+[2021-04-23 20:11:44] [info] Start Program:
+Path:"E:\\istvan\\__oop\\curs\\curs9-10\\PetStoreCosUndoGUI\\x64\\Release\\PetStoreCosUndoGUI.exe"
+Arguments:
+Working directory: "E:\\istvan\\__oop\\curs\\curs9-10\\PetStoreCosUndoGUI\\PetStoreCosUndoGUI\\"
+Modules: Selected: E:\istvan\__oop\curs\curs9-10\PetStoreCosUndoGUI\x64\Release\PetStoreCosUndoGUI.exe E:\istvan\__oop\curs\curs9-10\PetStoreCosUndoGUI\x64\Release\Sample-Test1.exe Excluded: 
+Sources: Selected: E:\istvan\__oop\curs\curs9-10\PetStoreCosUndoGUI\PetStoreCosUndoGUI E:\istvan\__oop\curs\curs9-10\PetStoreCosUndoGUI\Sample-Test1 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 1
+Export: binary C:\Users\Dell\AppData\Local\Temp\g31hzf3h.rrl 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2021-04-23 20:11:44] [info] Module: E:\istvan\__oop\curs\curs9-10\PetStoreCosUndoGUI\x64\Release\PetStoreCosUndoGUI.exe is selected because it matches selected pattern: 
+[2021-04-23 20:11:44] [info] ----------------------------------------------------
+[2021-04-23 20:11:44] [info] Coverage binary generated in file: C:\Users\Dell\AppData\Local\Temp\g31hzf3h.rrl
+[2021-04-23 20:11:44] [info] ----------------------------------------------------
+[2021-04-23 20:11:44] [warning] No modules were selected. Please check the values of --modules and --excluded_modules.
+You can try to remove all --modules and --excluded_modules and use --modules=E:\istvan\__oop\curs\curs9-10\PetStoreCosUndoGUI\x64\Release instead.

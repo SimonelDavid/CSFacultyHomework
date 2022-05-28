@@ -1,0 +1,4 @@
+23,str.Decebal nr.10 Cluj-Napoca,110000,vanzare
+21,str.Independentei nr.21 Deva,260,inchiriere
+6,str.Rapsodiei nr.11 CLuj-Napoca,141000,vanzare
+14,str.Horia nr.6 Cluj-Napoca,450,inchiriere

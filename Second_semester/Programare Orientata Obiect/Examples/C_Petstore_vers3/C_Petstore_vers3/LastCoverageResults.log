@@ -1,0 +1,21 @@
+[2022-04-01 07:41:19] [info] Start Program:
+Path:"C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\C_Petstore_vers3\x64\Debug\C_Petstore_vers3.exe"
+Arguments:
+Working directory: "C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\C_Petstore_vers3\C_Petstore_vers3\"
+Modules: Selected: C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\C_Petstore_vers3\x64\Debug\C_Petstore_vers3.exe Excluded: 
+Sources: Selected: C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\C_Petstore_vers3\C_Petstore_vers3 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\simon\AppData\Local\Temp\2k3jyp0r.hhk 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-04-01 07:41:19] [info] Module: C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\C_Petstore_vers3\x64\Debug\C_Petstore_vers3.exe is selected because it matches selected pattern: C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\C_Petstore_vers3\x64\Debug\C_Petstore_vers3.exe
+[2022-04-01 07:41:19] [info] ----------------------------------------------------
+[2022-04-01 07:41:19] [info] Coverage binary generated in file: C:\Users\simon\AppData\Local\Temp\2k3jyp0r.hhk
+[2022-04-01 07:41:19] [info] ----------------------------------------------------

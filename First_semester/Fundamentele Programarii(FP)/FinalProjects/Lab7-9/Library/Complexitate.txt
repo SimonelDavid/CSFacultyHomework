@@ -1,0 +1,25 @@
+
+	def get_book_by_id(self, id_Book):
+        	'''
+	           Returneaza Booka din repository care are id-ul id_Book. Daca nu exista retunreaza eroare
+        	   :return:
+	           :raises Exception: "id inexistent!\n" daca id_Book nu este gasit
+        	'''
+		for Book in self.__Copies_carti_repository:
+                	if Book.get_book().get_book_id() == id_Book: 
+                    		return Book
+		raise Exception("id inexistent!\n")
+
+Caz favorabil: For se executa o singura data - T(n) = 1 ∈ θ(1)
+
+Caz defavorabil: For se executa pana la capat
+			       n
+			T(n) = ∑ 1 = n => T(n) ∈ θ(n)
+			     (i=1)
+
+Caz mediu: For se executa de 1, 2, 3, ..., n ori
+
+Numar de pasi = numar mediu de iteratii
+        n
+T(n) = (∑ i)/n = (1+2+3+...+n)/n = (n+1)/2 => T(n) ∈ θ(n)
+      (i=1)

@@ -1,0 +1,8 @@
+Navickas | Gediminas | 190 | Fundas
+Nikolic | Niska | 192 | Fundas
+Dragusin | Iontu | 220 | Pivot
+Graham | Paul | 200 | Extrema
+Dumitrescu | Tudor | 200 | Extrema
+Mutu | Ciprian | 182 | Pivot
+
+Ronaldo | Cristiano | 189 | Pivot

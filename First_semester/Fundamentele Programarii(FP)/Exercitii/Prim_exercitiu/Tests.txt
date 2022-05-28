@@ -1,0 +1,4 @@
+1,Constanta memoriei,Salvador Dali,1931
+2,Tipatul,Edvard Munch,1893
+3,Nasterea lui Venus,Sandro Botticelli,1485
+4,Femeia care plange,Pablo Picasso,1937

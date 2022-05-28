@@ -1,0 +1,2 @@
+C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\Examples\VectorDinamicCPP\x64\Debug\VectorDinamicCPP.exe.lastcodeanalysissucceeded
+C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\Examples\VectorDinamicCPP\VectorDinamicCPP\x64\Debug\NativeCodeAnalysis.read.1.tlog

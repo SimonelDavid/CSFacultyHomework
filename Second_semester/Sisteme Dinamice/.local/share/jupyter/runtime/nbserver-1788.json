@@ -1,0 +1,11 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "notebook_dir": "/home/sage",
+  "password": false,
+  "pid": 1788,
+  "port": 8888,
+  "secure": false,
+  "token": "ae4b9f9d80ef9c20fe6ddef3f05d2a65e0df803113e616ae",
+  "url": "http://localhost:8888/"
+}

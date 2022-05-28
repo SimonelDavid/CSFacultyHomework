@@ -1,0 +1,5 @@
+﻿  teste.c
+C:\Users\simon\Documents\Facultate\Laboratoare\Programare Orientata Obiect\Lab2_4\Lab2_4\teste.c(21,57): warning C4047: 'function': 'int' differs in levels of indirection from 'char [11]'
+C:\Users\simon\Documents\Facultate\Laboratoare\Programare Orientata Obiect\Lab2_4\Lab2_4\teste.c(21,45): warning C4024: 'createOferta': different types for formal and actual parameter 1
+C:\Users\simon\Documents\Facultate\Laboratoare\Programare Orientata Obiect\Lab2_4\Lab2_4\teste.c(36,42): warning C4047: '=': 'int' differs in levels of indirection from 'char [11]'
+  Lab2_4.vcxproj -> C:\Users\simon\Documents\Facultate\Laboratoare\Programare Orientata Obiect\Lab2_4\x64\Debug\Lab2_4.exe

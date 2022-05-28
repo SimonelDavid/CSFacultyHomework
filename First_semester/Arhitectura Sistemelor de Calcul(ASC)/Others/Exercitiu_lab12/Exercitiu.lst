@@ -1,0 +1,104 @@
+     1                                  bits 32 
+     2                                  global start        
+     3                                  
+     4                                  extern exit, scanf, printf, fopen, fclose, fread               
+     5                                  import exit msvcrt.dll  
+     6                                  import scanf msvcrt.dll
+     7                                  import printf msvcrt.dll
+     8                                  import fopen msvcrt.dll
+     9                                  import fclose msvcrt.dll
+    10                                  import fread msvcrt.dll  
+    11                                  
+    12                                  segment data use32 class=data
+    13 00000000 44617469206E756D65-         text1 db "Dati numele fisierului: ", 0
+    13 00000009 6C6520666973696572-
+    13 00000012 756C75693A2000     
+    14 00000019 4E756D6172756C2062-         text2 db "Numarul bitilor 1 este: ", 0
+    14 00000022 6974696C6F72203120-
+    14 0000002B 657374653A2000     
+    15 00000032 7200                        mod_acces db 'r', 0
+    16 00000034 257300                      formats db "%s", 0
+    17 00000037 256400                      format db "%d", 0 
+    18                                      
+    19 0000003A <res 00000014>              nume resb 20
+    20                                      len equ 100
+    21 0000004E <res 00000064>              text resb len
+    22 000000B2 FFFFFFFF                    descriptor dd -1
+    23 000000B6 00                          nr db 0
+    24 000000B7 00                          frecventa db 0
+    25                                  
+    26                                  segment code use32 class=code
+    27                                      start:
+    28                                      
+    29                                          ; afisam pe ecran mesajul pentru utilizator
+    30 00000000 68[00000000]                    push dword text1
+    31 00000005 FF15[00000000]                  call [printf]
+    32 0000000B 83C404                          add esp, 4*1
+    33                                      
+    34                                          ; citim numele fisierului
+    35 0000000E 68[3A000000]                    push dword nume
+    36 00000013 68[34000000]                    push dword formats
+    37 00000018 FF15[00000000]                  call [scanf]
+    38 0000001E 83C408                          add esp, 4*2
+    39                                          
+    40                                          ; deschidem fisierul
+    41 00000021 68[32000000]                    push dword mod_acces
+    42 00000026 68[3A000000]                    push dword nume
+    43 0000002B FF15[00000000]                  call [fopen]
+    44 00000031 83C408                          add esp, 4*2
+    45                                          
+    46 00000034 83F800                          cmp eax, 0
+    47 00000037 7479                            je iesire
+    48 00000039 A3[B2000000]                    mov [descriptor], eax
+    49                                          
+    50                                          verificare:
+    51                                          
+    52                                              ; citim din fisier elementul
+    53 0000003E FF35[B2000000]                      push dword [descriptor]
+    54 00000044 6A64                                push dword len
+    55 00000046 6A01                                push dword 1
+    56 00000048 68[4E000000]                        push dword text
+    57 0000004D FF15[00000000]                      call [fread]
+    58 00000053 83C410                              add esp, 4*4
+    59                                              
+    60 00000056 A3[B6000000]                        mov [nr], eax
+    61 0000005B 83F800                              cmp eax, 0
+    62 0000005E 741C                                je afisare
+    63                                              
+    64 00000060 8B0D[B6000000]                      mov ecx, [nr]
+    65 00000066 FC                                  cld
+    66 00000067 BE[4E000000]                        mov esi, text
+    67                                              bucla:
+    68 0000006C AC                                      lodsb
+    69                                                  rotire:
+    70 0000006D D0D8                                        rcr al, 1
+    71 0000006F 8015[B7000000]00                            adc byte [frecventa], 0
+    72 00000076 3C00                                        cmp al, 0
+    73 00000078 75F3                                        jne rotire
+    74 0000007A E2F0                                loop bucla
+    75                                              
+    76                                          afisare:
+    77                                              
+    78                                              
+    79                                              ; afisam pe ecran mesajul pentru utilizator
+    80 0000007C 68[19000000]                        push dword text2
+    81 00000081 FF15[00000000]                      call [printf]
+    82 00000087 83C404                              add esp, 4*1
+    83                                              
+    84 0000008A B800000000                          mov eax, 0
+    85 0000008F A1[B7000000]                        mov eax, [frecventa]
+    86                                              
+    87                                              ; realizam afisarea
+    88 00000094 50                                  push dword eax
+    89 00000095 68[37000000]                        push dword format 
+    90 0000009A FF15[00000000]                      call [printf]    
+    91 000000A0 83C408                              add esp, 4*2
+    92                                  
+    93 000000A3 FF35[B2000000]                      push dword [descriptor]
+    94 000000A9 FF15[00000000]                      call [fclose]
+    95 000000AF 83C408                              add esp, 4*2
+    96                                              
+    97                                          iesire:
+    98                                  
+    99 000000B2 6A00                            push    dword 0
+   100 000000B4 FF15[00000000]                  call    [exit]

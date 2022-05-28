@@ -1,0 +1,7 @@
+﻿  App.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\..\..\..\..\Downloads\Implementare - Colectie - Reprezentare simplu inlantuita cu inlantuiri pe tablou static\App.cpp': No such file or directory
+  Colectie.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\..\..\..\..\Downloads\Implementare - Colectie - Reprezentare simplu inlantuita cu inlantuiri pe tablou static\Colectie.cpp': No such file or directory
+  Iterator.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\..\..\..\..\Downloads\Implementare - Colectie - Reprezentare simplu inlantuita cu inlantuiri pe tablou static\Iterator.cpp': No such file or directory
+  Generating Code...

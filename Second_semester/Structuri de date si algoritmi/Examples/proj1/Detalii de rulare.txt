@@ -1,0 +1,4 @@
+Acest program a fost realizat folosind limbajul C# si a fost compilat folosind IDE-ul MonoDevelop pe un sistem de operare Arch Linux x64
+Pentru rulare este necesar ca framework-ul DotNet 4.0 sau Mono sa fie instalat
+
+Conform paginilor de documentatie Mono, proiectul poate fi deschis si cu Visual Studio 2010 sau Xamarin Studio, si ar trebui sa ruleze fara probleme pe orice sistem de operare (atat timp cat Mono sau DotNet4 este instalat), inclusiv Linux, Mac si Windows

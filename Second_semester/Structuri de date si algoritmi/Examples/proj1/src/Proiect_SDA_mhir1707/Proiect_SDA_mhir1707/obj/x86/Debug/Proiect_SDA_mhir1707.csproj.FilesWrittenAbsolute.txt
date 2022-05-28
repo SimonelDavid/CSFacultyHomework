@@ -1,0 +1,11 @@
+/home/horatiu/Documents/Facultate/Anul 1/Semestrul 2/Structuri de Date si Algoritmi/Proiect/Proiect_SDA_mhir1707/Proiect_SDA_mhir1707/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/horatiu/Documents/Facultate/Anul 1/Semestrul 2/Structuri de Date si Algoritmi/Proiect/Proiect_SDA_mhir1707/Proiect_SDA_mhir1707/bin/Debug/Proiect_SDA_mhir1707.exe.mdb
+/home/horatiu/Documents/Facultate/Anul 1/Semestrul 2/Structuri de Date si Algoritmi/Proiect/Proiect_SDA_mhir1707/Proiect_SDA_mhir1707/bin/Debug/Proiect_SDA_mhir1707.exe
+/home/horatiu/Documents/Facultate/Anul 1/Semestrul 2/Structuri de Date si Algoritmi/Proiect/Proiect_SDA_mhir1707/Proiect_SDA_mhir1707/obj/x86/Debug/Proiect_SDA_mhir1707.exe
+/home/horatiu/Documents/Facultate/Anul 1/Semestrul 2/Structuri de Date si Algoritmi/Proiect/Proiect_SDA_mhir1707/Proiect_SDA_mhir1707/obj/x86/Debug/Proiect_SDA_mhir1707.exe.mdb
+/home/horatiu/Documents/Facultate/Anul 1/Semestrul 2/Structuri de Date si Algoritmi/Proiect/proj1/Proiect_SDA_mhir1707/Proiect_SDA_mhir1707/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/horatiu/Documents/Facultate/Anul 1/Semestrul 2/Structuri de Date si Algoritmi/Proiect/proj1/Proiect_SDA_mhir1707/Proiect_SDA_mhir1707/obj/x86/Debug/Proiect_SDA_mhir1707.exe
+/home/horatiu/Documents/Facultate/Anul 1/Semestrul 2/Structuri de Date si Algoritmi/Proiect/proj1/Proiect_SDA_mhir1707/Proiect_SDA_mhir1707/obj/x86/Debug/Proiect_SDA_mhir1707.exe.mdb
+/home/horatiu/Documents/Facultate/Anul 1/Semestrul 2/Structuri de Date si Algoritmi/Proiect/proj1/Proiect_SDA_mhir1707/Proiect_SDA_mhir1707/bin/Debug/Proiect_SDA_mhir1707.exe.mdb
+/home/horatiu/Documents/Facultate/Anul 1/Semestrul 2/Structuri de Date si Algoritmi/Proiect/proj1/Proiect_SDA_mhir1707/Proiect_SDA_mhir1707/bin/Debug/Proiect_SDA_mhir1707.exe
+/home/horatiu/Documents/Facultate/Anul 1/Semestrul 2/Structuri de Date si Algoritmi/Proiect/proj1/Proiect_SDA_mhir1707/Proiect_SDA_mhir1707/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs

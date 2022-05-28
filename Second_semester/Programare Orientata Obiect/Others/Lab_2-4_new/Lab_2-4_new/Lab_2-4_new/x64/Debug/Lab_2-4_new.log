@@ -1,0 +1,21 @@
+﻿  CarService.c
+C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\Lab_2-4_new\CarService.c(13,10): warning C4189: 'toUndo': local variable is initialized but not referenced
+C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\Lab_2-4_new\CarService.c(28,1): warning C4133: 'initializing': incompatible types - from 'ElemType' to 'MyList *'
+C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\Lab_2-4_new\CarService.c(51,33): warning C4047: 'function': 'ElemType *' differs in levels of indirection from 'Car *'
+C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\Lab_2-4_new\CarService.c(51,29): warning C4024: 'set': different types for formal and actual parameter 3
+C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\Lab_2-4_new\CarService.c(45,79): warning C4100: 'categorienoua': unreferenced formal parameter
+C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\Lab_2-4_new\CarService.c(45,63): warning C4100: 'modelnou': unreferenced formal parameter
+C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\Lab_2-4_new\CarService.c(61,33): warning C4047: 'function': 'ElemType *' differs in levels of indirection from 'Car *'
+C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\Lab_2-4_new\CarService.c(61,29): warning C4024: 'set': different types for formal and actual parameter 3
+  CarsRepository.c
+C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\Lab_2-4_new\CarsRepository.c(61,39): warning C4028: formal parameter 3 different from declaration
+C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\Lab_2-4_new\CarsRepository.c(130,22): warning C4047: 'function': 'Car *' differs in levels of indirection from 'ElemType *'
+C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\Lab_2-4_new\CarsRepository.c(130,14): warning C4024: 'set_model': different types for formal and actual parameter 1
+C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\Lab_2-4_new\CarsRepository.c(131,26): warning C4047: 'function': 'Car *' differs in levels of indirection from 'ElemType *'
+C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\Lab_2-4_new\CarsRepository.c(131,18): warning C4024: 'set_categorie': different types for formal and actual parameter 1
+C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\Lab_2-4_new\CarsRepository.c(129,1): warning C4047: 'initializing': 'ElemType *' differs in levels of indirection from 'ElemType'
+C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\Lab_2-4_new\CarsRepository.c(215,19): warning C4133: 'function': incompatible types - from 'MyList *' to 'ElemType'
+C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\Lab_2-4_new\CarsRepository.c(217,20): warning C4133: 'function': incompatible types - from 'MyList *' to 'ElemType'
+C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\Lab_2-4_new\CarsRepository.c(220,32): warning C4113: 'void (__cdecl *)(MyList *)' differs in parameter lists from 'DestroyFunction'
+  Generating Code...
+  Lab_2-4_new.vcxproj -> C:\Users\simon\Documents\Facultate\Laboratoare\Second_semester\Programare Orientata Obiect\Lab_2-4_new\Lab_2-4_new\x64\Debug\Lab_2-4_new.exe

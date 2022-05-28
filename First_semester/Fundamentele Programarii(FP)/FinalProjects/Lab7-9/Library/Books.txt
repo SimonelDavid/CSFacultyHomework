@@ -1,0 +1,7 @@
+
+
+1 | Ion | roman traditional | Liviu Rebreanu | 6 | 1
+2 | Moara cu noroc | nuvela psihologica | Ioan Slavici | 6 | 2
+3 | Moara cu noroc | nuvela psihologica | Ioan Slavici | 6 | 2
+
+3 | Alexandru Lapuseneanul | nuvela istorica | Costache Negruzzi | 9 | 0

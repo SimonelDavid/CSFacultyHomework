@@ -1,0 +1,33 @@
+     1                                  ;Sa se citeasca de la tastatura un numar in baza 10 si sa se afiseze valoarea acelui numar in baza 16.
+     2                                  ;Exemplu: Se citeste: 28; se afiseaza: 1C
+     3                                  
+     4                                  bits 32
+     5                                  global start
+     6                                  
+     7                                  extern exit, printf, scanf
+     8                                  import exit msvcrt.dll
+     9                                  import printf msvcrt.dll
+    10                                  import scanf msvcrt.dll
+    11                                        
+    12                                  segment data use32 class=data
+    13 00000000 256400                      format_10 db "%d", 0
+    14 00000003 257800                      format_16 db "%x", 0
+    15 00000006 00000000                    x dd 0
+    16                                      
+    17                                  
+    18                                  segment code use32 class=code
+    19                                  start:
+    20                                  ; efectuam citirea numarului in baza 10
+    21 00000000 68[06000000]                push dword x
+    22 00000005 68[00000000]                push format_10
+    23 0000000A FF15[00000000]              call [scanf]
+    24 00000010 83C408                      add esp, 4*2
+    25                                      
+    26                                  ;efectuam afisraea numarului in baza 16
+    27 00000013 FF35[06000000]              push dword[x]
+    28 00000019 68[03000000]                push format_16
+    29 0000001E FF15[00000000]              call [printf]
+    30 00000024 83C408                      add esp, 4*2
+    31                                  
+    32 00000027 6A00                        push dword 0
+    33 00000029 FF15[00000000]              call [exit]

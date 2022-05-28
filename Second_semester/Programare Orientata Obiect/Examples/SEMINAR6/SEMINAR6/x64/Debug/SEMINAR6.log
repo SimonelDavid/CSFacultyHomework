@@ -1,0 +1,19 @@
+﻿  Reading Qt configuration (C:/Qt/6.3.0/msvc2019_64/bin/qmake)
+  uic SEMINAR6.ui
+  rcc SEMINAR6.qrc
+  moc SEMINAR6.h
+   RCC: Warning: No resources in 'C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\Examples\SEMINAR6\SEMINAR6\SEMINAR6.qrc'.
+  Service.cpp
+  Song.cpp
+  SongStoreGUI.cpp
+  UI.cpp
+  Playlist.cpp
+  PlaylistGUI.cpp
+  Repository.cpp
+  SEMINAR6.cpp
+  main.cpp
+  qrc_SEMINAR6.cpp
+  moc_SEMINAR6.cpp
+  SEMINAR6.vcxproj -> C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\Examples\SEMINAR6\x64\Debug\SEMINAR6.exe
+  windeployqt: "C:/Qt/6.3.0/msvc2019_64/bin\windeployqt.exe" --list target --dir "C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\Examples\SEMINAR6\x64\Debug\\" "C:\Users\simon\Documents\Facultate\FacultyHomework\Second_semester\Programare Orientata Obiect\Examples\SEMINAR6\x64\Debug\SEMINAR6.exe"
+EXEC : warning : Cannot find Visual Studio installation directory, VCINSTALLDIR is not set.

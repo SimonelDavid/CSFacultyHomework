@@ -1,0 +1,124 @@
+     1                                  bits 32 
+     2                                  global start        
+     3                                  
+     4                                  extern exit, printf, scanf, fopen, fprintf, fclose
+     5                                  import fclose msvcrt.dll
+     6                                  import fprintf msvcrt.dll
+     7                                  import fopen msvcrt.dll
+     8                                  import printf msvcrt.dll
+     9                                  import scanf msvcrt.dll
+    10                                  import exit msvcrt.dll    
+    11                                  
+    12                                  segment data use32 class=data
+    13                                      
+    14 00000000 436974657374652070-         text1 db "Citeste pe n: ", 0
+    14 00000009 65206E3A2000       
+    15 0000000F 436974657374652070-         text2 db "Citeste pe m: ", 0
+    15 00000018 65206D3A2000       
+    16 0000001E 436974657374652063-         text3 db "Citeste cuvantul: ", 0
+    16 00000027 7576616E74756C3A20-
+    16 00000030 00                 
+    17 00000031 <res 00000014>              cuvant resb 20
+    18 00000045 65782E74787400              nume_fisier db "ex.txt", 0
+    19 0000004C 6100                        mod_acces db "a", 0
+    20 0000004E 00000000                    n dd 0
+    21 00000052 00000000                    m dd 0
+    22 00000056 256400                      format db "%d", 0
+    23 00000059 257300                      format_cuv db "%s", 0
+    24 0000005C FFFFFFFF                    descriptor_fis dd -1
+    25                                  
+    26                                  segment code use32 class=code
+    27                                      start:
+    28                                      
+    29 00000000 68[00000000]                push dword text1
+    30 00000005 FF15[00000000]              call [printf]
+    31 0000000B 83C404                      add esp, 4*1
+    32                                      
+    33 0000000E 68[4E000000]                push dword n
+    34 00000013 68[56000000]                push dword format
+    35 00000018 FF15[00000000]              call [scanf]
+    36 0000001E 83C408                      add esp, 4*2
+    37                                      
+    38 00000021 68[0F000000]                push dword text2
+    39 00000026 FF15[00000000]              call [printf]
+    40 0000002C 83C404                      add esp, 4*1
+    41                                      
+    42 0000002F 68[52000000]                push dword m
+    43 00000034 68[56000000]                push dword format
+    44 00000039 FF15[00000000]              call [scanf]
+    45 0000003F 83C408                      add esp, 4*2
+    46                                      
+    47 00000042 BE00000000                  mov esi, 0
+    48                                      
+    49                                      read:
+    50 00000047 3B35[52000000]                  cmp esi, [m]
+    51 0000004D 0F84B7000000                    je final
+    52                                          
+    53 00000053 68[1E000000]                    push dword text3
+    54 00000058 FF15[00000000]                  call [printf]
+    55 0000005E 83C404                          add esp, 4*1
+    56                                          
+    57 00000061 68[31000000]                    push dword cuvant
+    58 00000066 68[59000000]                    push dword format_cuv
+    59 0000006B FF15[00000000]                  call [scanf]
+    60 00000071 83C408                          add esp, 4*2
+    61                                          
+    62 00000074 46                              inc esi
+    63                                          
+    64 00000075 BBFFFFFFFF                      mov ebx, -1
+    65 0000007A B900000000                      mov ecx, 0
+    66 0000007F EB00                            jmp verifica
+    67                                  
+    68                                      verifica:
+    69 00000081 43                              inc ebx
+    70 00000082 80BB[31000000]00                cmp byte[cuvant+ebx], 0
+    71 00000089 7430                            je afisare
+    72                                          
+    73 0000008B 80BB[31000000]61                cmp byte[cuvant+ebx], "a"
+    74 00000092 74ED                            je verifica
+    75                                          
+    76 00000094 80BB[31000000]65                cmp byte[cuvant+ebx], "e"
+    77 0000009B 74E4                            je verifica
+    78                                          
+    79 0000009D 80BB[31000000]69                cmp byte[cuvant+ebx], "i"
+    80 000000A4 74DB                            je verifica
+    81                                          
+    82 000000A6 80BB[31000000]6F                cmp byte[cuvant+ebx], "o"
+    83 000000AD 74D2                            je verifica
+    84                                          
+    85 000000AF 80BB[31000000]75                cmp byte[cuvant+ebx], "u"
+    86 000000B6 74C9                            je verifica
+    87                                          
+    88 000000B8 41                              inc ecx
+    89 000000B9 EBC6                            jmp verifica
+    90                                          
+    91                                      afisare:
+    92 000000BB 3B0D[4E000000]                  cmp ecx, [n]
+    93 000000C1 7E02                            jle scrie
+    94 000000C3 7782                            ja read
+    95                                      
+    96                                      scrie:
+    97 000000C5 B800000000                      mov eax, 0
+    98                                          
+    99 000000CA 68[4C000000]                    push dword mod_acces     
+   100 000000CF 68[45000000]                    push dword nume_fisier
+   101 000000D4 FF15[00000000]                  call [fopen]
+   102 000000DA 83C408                          add esp, 4*2 
+   103                                          
+   104 000000DD A3[5C000000]                    mov [descriptor_fis], eax
+   105                                          
+   106 000000E2 68[31000000]                    push dword cuvant
+   107 000000E7 FF35[5C000000]                  push dword [descriptor_fis]
+   108 000000ED FF15[00000000]                  call [fprintf]
+   109 000000F3 83C408                          add esp, 4*2
+   110                                          
+   111 000000F6 FF35[5C000000]                  push dword [descriptor_fis]
+   112 000000FC FF15[00000000]                  call [fclose]
+   113 00000102 83C404                          add esp, 4
+   114                                          
+   115 00000105 E93DFFFFFF                      jmp read
+   116                                          
+   117                                      
+   118                                      final:
+   119 0000010A 6A00                            push    dword 0      
+   120 0000010C FF15[00000000]                  call    [exit]       

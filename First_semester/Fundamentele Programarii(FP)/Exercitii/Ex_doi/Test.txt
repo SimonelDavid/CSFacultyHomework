@@ -1,0 +1,4 @@
+ENG1,limba_engleza,A1,70
+GER1,limba_germana,C2,125
+SPN23,limba_spaniola,B2,86
+SPN24,limba_spaniola,B1,22

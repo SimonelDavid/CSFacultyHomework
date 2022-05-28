@@ -1,0 +1,84 @@
+     1                                  bits 32
+     2                                  global start
+     3                                  
+     4                                  extern exit, fopen, fclose, fscanf, fprintf
+     5                                  import exit msvcrt.dll
+     6                                  import fopen msvcrt.dll
+     7                                  import fclose msvcrt.dll
+     8                                  import fscanf msvcrt.dll
+     9                                  import fprintf msvcrt.dll
+    10                                        
+    11                                  segment data use32 class=data
+    12 00000000 <res 00000064>              text resb 100
+    13 00000064 7072696D756C666973-         fisier1 db "primulfisier.txt", 0
+    13 0000006D 6965722E74787400   
+    14 00000075 616C5F646F696C6561-         fisier2 db "al_doilea_fisier.txt", 0
+    14 0000007E 5F6669736965722E74-
+    14 00000087 787400             
+    15                                      
+    16 0000008A 7700                        mod_acces1 db "w", 0
+    17 0000008C 7200                        mod_acces2 db "r", 0
+    18                                      
+    19 0000008E 257300                      format1 db "%s", 0
+    20 00000091 256300                      format2 db "%c", 0
+    21                                      
+    22 00000094 00000000                    descriptor_fis dd 0
+    23                                  
+    24                                  segment code use32 class=code
+    25                                  start:
+    26                                  
+    27 00000000 68[8C000000]                push dword mod_acces2
+    28 00000005 68[64000000]                push dword fisier1
+    29 0000000A FF15[00000000]              call [fopen]
+    30 00000010 83C408                      add esp, 4*2
+    31                                      
+    32 00000013 85C0                        test eax, eax
+    33 00000015 0F8487000000                jz final
+    34 0000001B A3[94000000]                mov [descriptor_fis], eax
+    35                                      
+    36 00000020 68[00000000]                push dword text
+    37 00000025 68[8E000000]                push dword format1
+    38 0000002A FF35[94000000]              push dword [descriptor_fis]
+    39 00000030 FF15[00000000]              call [fscanf]
+    40 00000036 83C40C                      add esp, 4*3
+    41                                      
+    42 00000039 FF35[94000000]              push dword [descriptor_fis]
+    43 0000003F FF15[00000000]              call [fclose]
+    44 00000045 83C404                      add esp, 4
+    45                                      
+    46 00000048 68[8A000000]                push dword mod_acces1
+    47 0000004D 68[75000000]                push dword fisier2
+    48 00000052 FF15[00000000]              call [fopen]
+    49 00000058 83C408                      add esp, 4*2
+    50 0000005B A3[94000000]                mov [descriptor_fis], eax
+    51                                      
+    52 00000060 BE[00000000]                mov esi, text
+    53                                      
+    54                                      cautare:
+    55 00000065 803E00                          cmp byte[esi], 0
+    56 00000068 7405                            je afisare
+    57 0000006A 46                              inc esi
+    58 0000006B EBF8                            jmp cautare
+    59                                      
+    60 0000006D 8B1E                        mov ebx, [esi]
+    61                                      
+    62                                      afisare:
+    63 0000006F 4E                              dec esi
+    64 00000070 B800000000                      mov eax, 0
+    65                                          
+    66 00000075 FF36                            push dword[esi]
+    67 00000077 68[91000000]                    push format2
+    68 0000007C FF35[94000000]                  push dword [descriptor_fis]
+    69 00000082 FF15[00000000]                  call [fprintf]
+    70 00000088 83C40C                          add esp, 4*3
+    71                                          
+    72 0000008B 81FE[00000000]                  cmp esi, text
+    73 00000091 75DC                            jne afisare
+    74                                      
+    75 00000093 FF35[94000000]              push dword [descriptor_fis]
+    76 00000099 FF15[00000000]              call [fclose]
+    77 0000009F 83C404                      add esp, 4
+    78                                      
+    79                                      final:
+    80 000000A2 6A00                        push dword 0
+    81 000000A4 FF15[00000000]              call [exit]
