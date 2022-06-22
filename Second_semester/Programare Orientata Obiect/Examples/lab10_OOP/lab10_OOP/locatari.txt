@@ -1,0 +1,11 @@
+1,Ion,120,garsoniera
+2,Ionel,200,apartament
+3,Ionut,11,garsoniera
+4,Ioana,22,casa
+5,Diana,18,apartament
+6,Paul,23,garsoniera
+7,Bogdan,17,casa
+8,Ionica,99,duplex
+9,Ionuta,211,casa
+10,Ionela,112,casa
+11,Bea,111,duplex

@@ -1,0 +1,5 @@
+1,Ion,120,garsoniera
+2, Ionel,200, apartament
+3, Ionut,11, garsoniera
+4, Ioana,360, duplex
+10,Ioan,2000,tip2
