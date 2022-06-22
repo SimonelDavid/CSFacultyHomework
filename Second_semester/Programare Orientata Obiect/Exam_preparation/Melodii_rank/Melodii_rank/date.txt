@@ -1,0 +1,10 @@
+1;0;titlu1;artist1
+2;1;titlu2;artist1
+6;5;titlu6;artist1
+7;0;titlu7;artist3
+8;10;titlu8;artist3
+4;3;titlu4;artist2
+5;1;titlu12;artist4
+10;3;titlu10;artist1
+9;6;titlu9;artist1
+3;3;titlu11;artist2

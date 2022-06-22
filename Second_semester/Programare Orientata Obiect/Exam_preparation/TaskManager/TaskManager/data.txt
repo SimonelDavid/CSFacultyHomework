@@ -1,0 +1,2 @@
+1;Soft educational;open;Alex Mihai,George Simion
+2;Soft Antreprenorial;open;hercea gheorghe,mihai suciu

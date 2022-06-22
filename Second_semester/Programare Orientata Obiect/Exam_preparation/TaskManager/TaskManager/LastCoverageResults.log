@@ -1,0 +1,22 @@
+[2022-06-22 17:28:22] [info] Start Program:
+Path:"E:\University\CSFacultyHomework\CSFacultyHomework\Second_semester\Programare Orientata Obiect\Exam_preparation\TaskManager\x64\Debug\TaskManager.exe"
+Arguments:
+Working directory: "E:\University\CSFacultyHomework\CSFacultyHomework\Second_semester\Programare Orientata Obiect\Exam_preparation\TaskManager\TaskManager\"
+Modules: Selected: E:\University\CSFacultyHomework\CSFacultyHomework\Second_semester\Programare Orientata Obiect\Exam_preparation\TaskManager\x64\Debug\TaskManager.exe Excluded: 
+Sources: Selected: E:\University\CSFacultyHomework\CSFacultyHomework\Second_semester\Programare Orientata Obiect\Exam_preparation\TaskManager\TaskManager Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\simon\AppData\Local\Temp\iz1imnum.i01 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-06-22 17:28:22] [info] Module: E:\University\CSFacultyHomework\CSFacultyHomework\Second_semester\Programare Orientata Obiect\Exam_preparation\TaskManager\x64\Debug\TaskManager.exe is selected because it matches selected pattern: E:\University\CSFacultyHomework\CSFacultyHomework\Second_semester\Programare Orientata Obiect\Exam_preparation\TaskManager\x64\Debug\TaskManager.exe
+[2022-06-22 17:28:22] [info] ----------------------------------------------------
+[2022-06-22 17:28:22] [info] Coverage binary generated in file: C:\Users\simon\AppData\Local\Temp\iz1imnum.i01
+[2022-06-22 17:28:22] [info] ----------------------------------------------------
+[2022-06-22 17:28:22] [error] Your program stop with error code: -1073741515
