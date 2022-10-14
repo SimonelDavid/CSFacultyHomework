@@ -1,0 +1,9 @@
+1. orbite(id, tip, altitudine)
+2. obiecte(id, tip, denumire, misiune, construire, lansare, intretinator, interval functionare, are clienti)
+3. organizatii(id, tip, denumire, tara)
+4. misiuni(id, tip, denumire, buget)
+5. echipa(id, leader, number of members)
+6. clienti
+7. sponsori
+8. domeniu de interes(de exemplu sunt folosite obiecte pentru observare spre pamant sau spre univers sau pentru cercetare, pot fi asignate mai multe misiuni sau mai multe obiecte unui interes)
+9. 
