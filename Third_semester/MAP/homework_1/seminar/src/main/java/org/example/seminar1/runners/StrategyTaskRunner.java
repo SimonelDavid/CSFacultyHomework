@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 package org.example.seminar1.runners;
 
 import org.example.seminar1.containers.Container;
 import org.example.seminar1.factories.Strategy;
 import org.example.seminar1.factories.TaskContainerFactory;
 import org.example.seminar1.models.Task;
+=======
+package main.java.org.example.seminar1.runners;
+
+import main.java.org.example.seminar1.containers.Container;
+import main.java.org.example.seminar1.factories.Strategy;
+import main.java.org.example.seminar1.factories.TaskContainerFactory;
+import main.java.org.example.seminar1.models.Task;
+>>>>>>> dd91ed8 (homerowrk prep)
 
 public class StrategyTaskRunner implements TaskRunner {
     private Container container;

@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 package org.example.seminar1.runners;
 
 import org.example.seminar1.models.Task;
+=======
+package main.java.org.example.seminar1.runners;
+
+
+import main.java.org.example.seminar1.models.Task;
+>>>>>>> dd91ed8 (homerowrk prep)
 
 public interface TaskRunner {
     void executeOneTask();//executa un task din colecţia de task-uri de executat

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package org.example.seminar1;
 
 import org.example.seminar1.factories.Strategy;
@@ -7,6 +8,18 @@ import org.example.seminar1.models.Task;
 import org.example.seminar1.runners.PrinterTaskRunner;
 import org.example.seminar1.runners.StrategyTaskRunner;
 import org.example.seminar1.runners.TaskRunner;
+=======
+package main.java.org.example.seminar1;
+
+
+import main.java.org.example.seminar1.factories.Strategy;
+import main.java.org.example.seminar1.models.Message;
+import main.java.org.example.seminar1.models.MessageTask;
+import main.java.org.example.seminar1.models.Task;
+import main.java.org.example.seminar1.runners.PrinterTaskRunner;
+import main.java.org.example.seminar1.runners.StrategyTaskRunner;
+import main.java.org.example.seminar1.runners.TaskRunner;
+>>>>>>> dd91ed8 (homerowrk prep)
 
 import java.time.LocalDateTime;
 import java.util.LinkedList;

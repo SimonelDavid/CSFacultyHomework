@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package org.example.seminar1.runners;
+=======
+package main.java.org.example.seminar1.runners;
+>>>>>>> dd91ed8 (homerowrk prep)
 
 import org.example.seminar1.utils.Utils;
 
