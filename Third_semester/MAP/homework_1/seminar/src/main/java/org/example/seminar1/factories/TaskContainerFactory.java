@@ -1,7 +1,7 @@
-package org.example.seminar1.factories;
+package main.java.org.example.seminar1.factories;
 
-import org.example.seminar1.containers.Container;
-import org.example.seminar1.containers.StackContainer;
+import main.java.org.example.seminar1.containers.Container;
+import main.java.org.example.seminar1.containers.StackContainer;
 
 public class TaskContainerFactory implements Factory {
     private final static TaskContainerFactory taskContainerFactory = new TaskContainerFactory();

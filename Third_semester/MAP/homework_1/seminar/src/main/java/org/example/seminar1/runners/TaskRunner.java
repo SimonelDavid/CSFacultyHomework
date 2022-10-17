@@ -1,6 +1,7 @@
-package org.example.seminar1.runners;
+package main.java.org.example.seminar1.runners;
 
-import org.example.seminar1.models.Task;
+
+import main.java.org.example.seminar1.models.Task;
 
 public interface TaskRunner {
     void executeOneTask();//executa un task din colecţia de task-uri de executat
