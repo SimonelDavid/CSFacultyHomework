@@ -11,6 +11,9 @@ public abstract class Task {
         this.description = description;
     }
 
+    protected Task() {
+    }
+
     public String getTaskID() {
         return taskID;
     }
