@@ -6,8 +6,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Message message = new Message("message1", "Vancea",
-                "Boian", LocalDateTime.now());
+        Message message = new Message("message1", "Vancea", "Boian", LocalDateTime.now());
 
         Task task1 = new MessageTask("1", "task1", message);
         Task task2 = new MessageTask("2", "task2", message);

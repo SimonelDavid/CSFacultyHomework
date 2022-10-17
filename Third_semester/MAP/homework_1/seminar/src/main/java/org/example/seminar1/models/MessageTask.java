@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package org.example.seminar1.models;
+=======
+package main.java.org.example.seminar1.models;
+>>>>>>> dd91ed8 (homerowrk prep)
 
 public class MessageTask extends Task {
     private Message message;

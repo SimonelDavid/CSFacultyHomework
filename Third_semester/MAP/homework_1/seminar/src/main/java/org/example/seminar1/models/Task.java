@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package org.example.seminar1.models;
+=======
+package main.java.org.example.seminar1.models;
+>>>>>>> dd91ed8 (homerowrk prep)
 
 import java.util.Objects;
 
