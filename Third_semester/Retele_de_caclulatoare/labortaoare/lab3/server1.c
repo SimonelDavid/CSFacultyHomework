@@ -8,12 +8,15 @@
  
 void deservire_client(int c) {
   // deservirea clientului
-  uint16_t a, b, suma;
+  uint16_t a, suma;
   recv(c, &a, sizeof(a), MSG_WAITALL);
-  recv(c, &b, sizeof(b), MSG_WAITALL);
   a = ntohs(a);
-  b = ntohs(b);
-  suma = a + b;
+  suma = 0;
+  int len = strlen(a);
+  for (int i = 0; i < len; i++) {
+    if(strcmp(a[i], " "))
+        suma++;
+  }
   suma = htons(suma);
   send(c, &suma, sizeof(suma), 0);
   close(c);
@@ -32,7 +35,7 @@ int main() {
   }
   
   memset(&server, 0, sizeof(server));
-  server.sin_port = htons(8888);
+  server.sin_port = htons(1234);
   server.sin_family = AF_INET;
   server.sin_addr.s_addr = INADDR_ANY;
   
