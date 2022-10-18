@@ -37,8 +37,9 @@ public class QuickSort extends AbstractSorter
     }
 
     @Override
-    public void sort(int[] numbers)
+    public int[] sort(int[] numbers)
     {
         sortRec(numbers, 0, numbers.length - 1);
+        return numbers;
     }
 }
