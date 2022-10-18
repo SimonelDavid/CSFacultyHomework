@@ -17,9 +17,12 @@ public class SorterFactory
 
     public AbstractSorter createSorter(SortingStrategy strategy)
     {
-        return switch (strategy) {
-            case QUICK_SORT -> new QuickSort();
-            case BUBBLE_SORT -> new BubbleSort();
-        };
+        if(strategy==SortingStrategy.QUICK_SORT){
+            return new QuickSort();
+        }
+        if(strategy==SortingStrategy.BUBBLE_SORT){
+            return new BubbleSort();
+        }
+        return null;
     }
 }

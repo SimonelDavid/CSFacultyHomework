@@ -7,28 +7,21 @@ import main.java.org.example.seminar1.utils.SortingStrategy;
 
 public class SortingTask extends Task
 {
-    private int[] numbers;
+    private int[] arr;
+    private SortingStrategy strategy;
     private AbstractSorter sorter;
-
-    protected SortingTask(int[] array, SortingStrategy strategy)
-    {
-        this.numbers = array;
-        this.sorter = SorterFactory.getInstance().createSorter(strategy);
+    public SortingTask(String taskId, String description, SortingStrategy strategy, int[] arr) {
+        super(taskId, description);
+        this.strategy=strategy;
+        this.arr = arr;
     }
 
     @Override
-    public void execute()
-    {
-        this.sorter.sort(this.numbers);
-    }
-
-    @Override
-    public String toString()
-    {
-        StringBuilder s = new StringBuilder();
-        for(int i = 0; i < this.numbers.length - 1; i++)
-            s.append(this.numbers[i]).append(", ");
-        s.append(this.numbers[this.numbers.length - 1]);
-        return s.toString();
+    public void execute() {
+        sorter= SorterFactory.getInstance().createSorter(strategy);
+        int[] sortedArr=sorter.sort(arr);
+        for(int i:sortedArr){
+            System.out.println(i);
+        }
     }
 }

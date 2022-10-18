@@ -5,7 +5,7 @@ public class BubbleSort extends AbstractSorter
     public BubbleSort() { super(); }
 
     @Override
-    public void sort(int[] numbers)
+    public int[] sort(int[] numbers)
     {
         int i, j, temp;
         boolean swapped;
@@ -27,5 +27,6 @@ public class BubbleSort extends AbstractSorter
             if (!swapped)
                 break;
         }
+        return numbers;
     }
 }
