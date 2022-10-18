@@ -1,4 +1,4 @@
-package org.example.seminar1.models;
+package main.java.org.example.seminar1.models;
 
 public class MessageTask extends Task {
     private Message message;

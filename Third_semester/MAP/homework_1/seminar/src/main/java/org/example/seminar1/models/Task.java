@@ -1,4 +1,4 @@
-package org.example.seminar1.models;
+package main.java.org.example.seminar1.models;
 
 import java.util.Objects;
 
@@ -9,6 +9,9 @@ public abstract class Task {
     public Task(String taskID, String description) {
         this.taskID = taskID;
         this.description = description;
+    }
+
+    protected Task() {
     }
 
     public String getTaskID() {

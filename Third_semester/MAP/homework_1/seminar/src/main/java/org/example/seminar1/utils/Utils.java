@@ -1,4 +1,4 @@
-package org.example.seminar1.utils;
+package main.java.org.example.seminar1.utils;
 
 import java.time.format.DateTimeFormatter;
 
