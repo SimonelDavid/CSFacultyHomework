@@ -1,4 +1,4 @@
-package main.java.org.example.seminar1.factories;
+package org.example.seminar1.factories;
 
 public enum Strategy {
     FIFO,

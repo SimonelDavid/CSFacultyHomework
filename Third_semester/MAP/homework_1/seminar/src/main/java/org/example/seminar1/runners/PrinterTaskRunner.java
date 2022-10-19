@@ -1,6 +1,6 @@
-package main.java.org.example.seminar1.runners;
+package org.example.seminar1.runners;
 
-import main.java.org.example.seminar1.utils.Utils;
+import org.example.seminar1.utils.Utils;
 
 import java.time.LocalDateTime;
 
