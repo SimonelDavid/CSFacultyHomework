@@ -1,4 +1,4 @@
-package main.java.org.example.seminar1.models;
+package org.example.seminar1.models;
 
 import java.util.Objects;
 

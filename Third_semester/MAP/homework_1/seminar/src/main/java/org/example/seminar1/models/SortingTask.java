@@ -1,9 +1,8 @@
-package main.java.org.example.seminar1.models;
+package org.example.seminar1.models;
 
-
-import main.java.org.example.seminar1.sort.AbstractSorter;
-import main.java.org.example.seminar1.sort.SorterFactory;
-import main.java.org.example.seminar1.utils.SortingStrategy;
+import org.example.seminar1.sort.AbstractSorter;
+import org.example.seminar1.sort.SorterFactory;
+import org.example.seminar1.utils.SortingStrategy;
 
 public class SortingTask extends Task
 {
