@@ -1,0 +1,3 @@
+CREATE DATABASE Gestiunea_Obiectelor_din_Orbita_Pamantului;
+GO
+USE Gestiunea_Obiectelor_din_Orbita_Pamantului;
