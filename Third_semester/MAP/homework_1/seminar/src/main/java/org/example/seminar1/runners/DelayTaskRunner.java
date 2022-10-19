@@ -1,4 +1,4 @@
-package main.java.org.example.seminar1.runners;
+package org.example.seminar1.runners;
 
 public class DelayTaskRunner extends AbstractTaskRunner{
     public DelayTaskRunner(TaskRunner taskRunner) {

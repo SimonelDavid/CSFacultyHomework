@@ -1,6 +1,6 @@
-package main.java.org.example.seminar1.sort;
+package org.example.seminar1.sort;
 
-import main.java.org.example.seminar1.utils.SortingStrategy;
+import org.example.seminar1.utils.SortingStrategy;
 
 public class SorterFactory
 {
