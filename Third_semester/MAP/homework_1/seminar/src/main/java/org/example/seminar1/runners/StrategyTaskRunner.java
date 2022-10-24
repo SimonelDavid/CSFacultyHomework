@@ -1,9 +1,9 @@
-package main.java.org.example.seminar1.runners;
+package org.example.seminar1.runners;
 
-import main.java.org.example.seminar1.containers.Container;
-import main.java.org.example.seminar1.factories.Strategy;
-import main.java.org.example.seminar1.factories.TaskContainerFactory;
-import main.java.org.example.seminar1.models.Task;
+import org.example.seminar1.containers.Container;
+import org.example.seminar1.factories.Strategy;
+import org.example.seminar1.factories.TaskContainerFactory;
+import org.example.seminar1.models.Task;
 
 public class StrategyTaskRunner implements TaskRunner {
     private Container container;

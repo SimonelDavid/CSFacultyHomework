@@ -1,8 +1,8 @@
-package main.java.org.example.seminar1.models;
+package org.example.seminar1.models;
 
 import java.time.LocalDateTime;
 
-import static main.java.org.example.seminar1.utils.Utils.DATE_TIME_FORMATTER;
+import static org.example.seminar1.utils.Utils.DATE_TIME_FORMATTER;
 
 public class Message {
     private String message;
