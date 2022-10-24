@@ -122,23 +122,16 @@ public class Main {
     }
 
     private static void testSorters() {
-        System.out.println("MergeSort\n");
-        int[] arr1 = {4, 7, 1, 22, 8, 3, 9, 2};
+        System.out.println("MergeSort:\n");
+        int[] arr1 = {5, 35, 2, 22, 100, 3, 9, 1, 16};
         Task sortingTask1 = new SortingTask("1", "merge sort", SortingStrategy.QUICK_SORT, arr1);
         sortingTask1.execute();
-//        for(int i=0;i<=arr1.length-1;i++){
-//            System.out.println(arr1[i]);
-//            System.out.println(" ");
-//        }
         System.out.println("\n");
-        System.out.println("BubbleSort\n");
-        int[] arr2 = {10, 9, 8, 7, 6, 5};
+
+        System.out.println("BubbleSort:\n");
+        int[] arr2 = {12, 3, 8, 7, 6, 5, 26, 91};
         Task sortingTask2 = new SortingTask("2", "bubble sort", SortingStrategy.BUBBLE_SORT, arr2);
         sortingTask2.execute();
-//        for(int i=0;i<=arr2.length-1;i++){
-//            System.out.println(arr2[i]);
-//            System.out.println(" ");
-//        }
         System.out.println("\n");
 
     }
