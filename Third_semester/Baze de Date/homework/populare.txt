@@ -1,0 +1,42 @@
+USE Gestiunea_Obiectelor_din_Orbita_Pamantului;
+
+INSERT INTO Obiecte(activ) VALUES(1);
+
+CREATE TABLE TipSatelit
+(
+	id_tip_sat INT PRIMARY KEY IDENTITY,
+	nume VARCHAR(100),
+)
+
+ALTER TABLE Satelit
+ADD id_tip_sat VARCHAR(100);
+ALTER TABLE Satelit
+ADD CONSTRAINT FK_tip_sat FOREIGN KEY (id_tip_sat) REFERENCES TipSatelit(id_tip_sat);
+
+INSERT INTO TipSatelit(nume) VALUES('comunicare');
+INSERT INTO TipSatelit(nume) VALUES('geostationar');
+INSERT INTO TipSatelit(nume) VALUES('militar');
+INSERT INTO TipSatelit(nume) VALUES('geosincron');
+INSERT INTO TipSatelit(nume) VALUES('observare');
+INSERT INTO TipSatelit(nume) VALUES('navigare');
+INSERT INTO TipSatelit(nume) VALUES('vreme');
+
+INSERT INTO Satelit(nume, id_tip_sat) VALUES('Telstar 1', 1);
+INSERT INTO Satelit(nume, id_tip_sat) VALUES('Intelsat 1', 1);
+INSERT INTO Satelit(nume, id_tip_sat) VALUES('Telstar 603', 1);
+INSERT INTO Satelit(nume, id_tip_sat) VALUES('Telstar 1', 1);
+INSERT INTO Satelit(nume, id_tip_sat) VALUES('AMOS 2', 1);
+INSERT INTO Satelit(nume, id_tip_sat) VALUES('AMOS 3', 1);
+INSERT INTO Satelit(nume, id_tip_sat) VALUES('AMOS 6A', 1);
+INSERT INTO Satelit(nume, id_tip_sat) VALUES('Telkom 2', 1);
+INSERT INTO Satelit(nume, id_tip_sat) VALUES('Telkom 3', 1);
+INSERT INTO Satelit(nume, id_tip_sat) VALUES('Telstar 1', 1);
+INSERT INTO Satelit(nume, id_tip_sat) VALUES('Courier 1B', 1);
+INSERT INTO Satelit(nume, id_tip_sat) VALUES('GOES 16', 2);
+INSERT INTO Satelit(nume, id_tip_sat) VALUES('GOES 17', 2);
+INSERT INTO Satelit(nume, id_tip_sat) VALUES('Mexsat-3', 2);
+INSERT INTO Satelit(nume, id_tip_sat) VALUES('GSAT-18', 2);
+INSERT INTO Satelit(nume, id_tip_sat) VALUES('USA 327', 3);
+INSERT INTO Satelit(nume, id_tip_sat) VALUES('TURKSAT 5B', 3);
+INSERT INTO Satelit(nume, id_tip_sat) VALUES('USA 310', 3);
+INSERT INTO Satelit(nume, id_tip_sat) VALUES('OFEQ 16', 3);
