@@ -3,20 +3,20 @@ USE Gestiunea_Obiectelor_din_Orbita_Pamantului;
 CREATE TABLE Satelit
 (
 	id_sat INT PRIMARY KEY IDENTITY,
-	nume CHAR,
+	nume VARCHAR(100),
 )
 
 CREATE TABLE Domeniu
 (
 	id_dom INT PRIMARY KEY IDENTITY,
-	nume CHAR,
+	nume VARCHAR(100),
 )
 
 CREATE TABLE Misiune
 (
 	id_mis INT PRIMARY KEY IDENTITY,
-	tip CHAR,
-	denumire CHAR,
+	tip VARCHAR(100),
+	denumire VARCHAR(100),
 	buget INT,
 	id_dom INT,
 	CONSTRAINT FK_domeniu FOREIGN KEY (id_dom) REFERENCES Domeniu(id_dom),
@@ -25,14 +25,14 @@ CREATE TABLE Misiune
 CREATE TABLE Organizatii
 (
 	id_org INT PRIMARY KEY IDENTITY,
-	nume CHAR,
-	tara_orig CHAR,
+	nume VARCHAR(100),
+	tara_orig VARCHAR(100),
 )
 
 CREATE TABLE Orbita
 (
 	id_orb INT PRIMARY KEY IDENTITY,
-	nume CHAR,
+	nume VARCHAR(100),
 	altitudine INT, 
 )
 
@@ -47,25 +47,25 @@ CREATE TABLE Mis_in_Orb(
 CREATE TABLE Statie
 (
 	id_st INT PRIMARY KEY IDENTITY,
-	nume CHAR,
+	nume VARCHAR(100),
 )
 
 CREATE TABLE Sonda
 (
 	id_sd INT PRIMARY KEY IDENTITY,
-	nume CHAR,
+	nume VARCHAR(100),
 )
 
 CREATE TABLE Telescop
 (
 	id_tel INT PRIMARY KEY IDENTITY,
-	nume CHAR,
+	nume VARCHAR(100),
 )
 
 CREATE TABLE Deseu
 (
 	id_des INT PRIMARY KEY IDENTITY,
-	nume CHAR,
+	nume VARCHAR(100),
 )
 
 CREATE TABLE Obiecte
