@@ -16,9 +16,11 @@ public class TaskContainerFactory implements Factory {
 
     @Override
     public Container createContainer(Strategy strategy) {
+        //daca e lifo, returneaza stack
         if (strategy == Strategy.LIFO) {
             return new StackContainer();
         }
+        //daca e fifo returneaza coada
         if(strategy==Strategy.FIFO) {
             return new QueueContainer();
         }
