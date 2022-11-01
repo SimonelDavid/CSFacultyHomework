@@ -28,9 +28,7 @@ public class StrategyTaskRunner implements TaskRunner {
     }
 
     @Override
-    public void addTask(Task t) {
-        container.add(t);
-    }
+    public void addTask(Task t) { container.add(t); }
 
     @Override
     public boolean hasTask() {
