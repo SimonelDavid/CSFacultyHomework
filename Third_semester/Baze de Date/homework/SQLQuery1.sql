@@ -1,9 +1,17 @@
 USE Gestiunea_Obiectelor_din_Orbita_Pamantului;
 
+CREATE TABLE TipSatelit
+(
+	id_tip_sat INT PRIMARY KEY IDENTITY,
+	nume VARCHAR(100),
+)
+
 CREATE TABLE Satelit
 (
 	id_sat INT PRIMARY KEY IDENTITY,
 	nume VARCHAR(100),
+	id_tip_sat INT,
+	CONSTRAINT FK_tip_sat FOREIGN KEY (id_tip_sat) REFERENCES TipSatelit(id_tip_sat),
 )
 
 CREATE TABLE Domeniu
@@ -50,12 +58,6 @@ CREATE TABLE Statie
 	nume VARCHAR(100),
 )
 
-CREATE TABLE Sonda
-(
-	id_sd INT PRIMARY KEY IDENTITY,
-	nume VARCHAR(100),
-)
-
 CREATE TABLE Telescop
 (
 	id_tel INT PRIMARY KEY IDENTITY,
@@ -89,7 +91,6 @@ CREATE TABLE Obiecte
 	CONSTRAINT FK_intretinator FOREIGN KEY (id_int) REFERENCES Organizatii(id_org),
 	CONSTRAINT FK_orbita FOREIGN KEY (id_orb) REFERENCES Orbita(id_orb),
 	CONSTRAINT FK_statie FOREIGN KEY (id_st) REFERENCES Statie(id_st),
-	CONSTRAINT FK_sonda FOREIGN KEY (id_sd) REFERENCES Sonda(id_sd),
 	CONSTRAINT FK_telescop FOREIGN KEY (id_tel) REFERENCES Telescop(id_tel),
 	CONSTRAINT FK_deseu FOREIGN KEY (id_des) REFERENCES Deseu(id_des),
 )
