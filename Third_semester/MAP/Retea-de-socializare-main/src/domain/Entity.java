@@ -2,7 +2,7 @@ package domain;
 
 import java.io.Serializable;
 
-public class Entity<ID> implements Serializable {
+public class Entity<ID> {
 
     private static final long serialVersionUID = 7331115341259248461L;
     protected ID id;
