@@ -1,36 +1,33 @@
-%domains
-%   el = integer
-%   list = el*
-%predicates
-%   adaugaSf(el,list,list)  (i,i,o)
-%   invers(list,list)   (i,o)
-%   sum(list,integer,list)  (i,i,o)
-%   succesor(list,list)     (i,o)
-%   tipar(list)
-%clauses
+%8. a)
+%list-integer*
+%adaugare la sfarsitul unei liste
+%adaugare(E:integer, L:list, LRez:list)
+%Modele de flux (i,i,o),(i,i,i)
+adaugare([],E,[E]).
+adaugare([H|T],E,[H|L]):-adaugare(T,E,L).
 
-adaugaSf(E,[],[E]).
-adaugaSf(E,[H|T],[H|L]):-adaugaSf(E,T,L).
-invers([], []).
-invers([H|T], L):-invers(T,L1),
-                  adaugaSf(H,L1,L).
+%inversa unei liste
+%inversare(L:list, LRez:list)
+%Modele de flux(i,o),(i,i)
+inversare([],[]).
+inversare([H|T],LRez):-inversare(T,L), adaugare(L,H,LRez).
 
-sum([],Tr,[_]):-Tr=\=0,!.
-sum([],Tr,[]):-!.
-sum([H|T],Tr,[S|L1]):-
-                    S1=H+Tr,
-                    S=S1 mod 10,
-                    Tr1 = S1 div 10,
-                    sum(T,Tr1,L1).
+%adaugare cu transport
+%sum(L:list, Tr:integer, LRez:list)
+%Modele de flux(i,o),(i,i)
+sum([],Tr,[Tr]):-Tr>0.
+sum([],Tr,[]):-Tr=0.
+sum([H|T],Tr,[R|LRez]) :- R1 is H+Tr, R is R1 mod 10, Tr1 is R1 div 10, sum(T,Tr1,LRez).
 
-succesor(L,LS):-invers(L,LI),
-                sum(LI,1,LA),
-                invers(LA,LS),
-                write("L="),
-                tipar(LS),
-                write("]").
+%succesor(L:list, LS:list)
+%Modele de flux(i,o),(i,i)
+succesor(L,LS):- inversare(L,LI), sum(LI,1,LA), inversare(LA,LS).
 
-tipar([]).
-tipar([H|T]):-write(H),
-              write(","),
-              tipar(T).
+
+%8. b).
+%sublist(L:lista eterogena, R:lista eterogena)
+%Modele de flux(i,o),(i,i)
+sublist([],[]).
+sublist([H|T],[H|L]):-not(is_list(H)), sublist(T,L).
+sublist([H|T],[L1|L]):-is_list(H), succesor(H,L1), sublist(T,L), write(L).
+
