@@ -79,22 +79,4 @@ public interface Service<ID> {
      */
     void add_Predefined_Values(int i);
 
-    /**
-     * @return an int that represents the number of communities
-     */
-    int numberOfCommunities();
-
-
-    /**
-     * Returns the most sociable community
-     * the most sociable community is the community of users with the longest path
-     *
-     * @return an Iterable of all the most sociable communities users
-     */
-    Iterable<Iterable<User>> mostSociableCommunity();
-
-    /**
-     * @returns a list of all the communities
-     */
-    public List<List<User>> getAllCommunities();
 }
