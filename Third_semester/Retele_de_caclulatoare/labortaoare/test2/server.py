@@ -3,6 +3,9 @@
 # Clientul afiseaza suma specificand in linia de comanda si textul dar si adresa ip pe care sa facut calculul.
 import socket
 import sys
+import string
+import random
+import urllib.util.ssl_
 
 if len(sys.argv) == 3:
     # Get "IP address of Server" and also the "port number" from argument 1 and argument 2
@@ -23,20 +26,20 @@ except socket.error:
         print("Eroare la conectarea la server")
         sys.exit()
 
-def check_space(string):
-     
-    # counter
-    count = 0
-     
-    # loop for search each index
-    for i in range(0, len(string)):
-         
-        # Check each char
-        # is blank or not
-        if string[i] == " ":
-            count += 1
-         
-    return count
+def get_random_string(length, text):
+    result_str = ''.join(random.choice(text) for i in range(length))
+    print("Random string of length", length, "is:", result_str)
+
+def productAscii(text):
+ 
+    prod = 1
+    text = str(text)
+    # Traverse string to find the product
+    for i in range(0, len(text)):
+        prod = prod * ord(text[i])
+ 
+    # Return the product
+    return prod
 
 while True:
     print("####### Server asculta #######")
@@ -46,26 +49,21 @@ while True:
 
     text, data = s.recvfrom(4096)
     text = str(text.decode('utf-8'))
-    suma_spatii = check_space(text)
+
+    text = text[::-1]
+
+    random_3_chars = get_random_string(3, text)
+    prod = productAscii(random_3_chars)
 
     port = int(input("Citeste port: \n"))
 
-    port += suma_spatii
-    port = str(port)
     print("portul nou este: ", port)
+    if port < 40000 or port > 50000:
+        port = int(input('Portul este gresit! Trebuie sa fie intre 40000 si 50000. Alege un alt port: \n'))
 
-    uniue_char = "".join(set(text))
+    port = str(port)
 
-    print("caractere unice:", uniue_char)
-    uniue_char = str(uniue_char)
     s.sendto(port.encode('utf-8'),data)
-    ip_precedent = 0
-    if count == 0:
-        uniue_char = uniue_char+" "+str(data[0])
-        ip_precedent=data[0]
-    if count > 0:
-        uniue_char = uniue_char+" "+str(data[0])
-        ip_precedent = data[0]
 
     port = int(port)
 
@@ -79,7 +77,7 @@ while True:
     except socket.error:
             print("Eroare la conectarea la server")
             sys.exit()
-    s1.sendto(uniue_char.encode('utf-8'),data)
+    s1.sendto(prod.encode('utf-8'),data)
 
     print("\n\n Server a primit: ", text, "\n\n")
 
