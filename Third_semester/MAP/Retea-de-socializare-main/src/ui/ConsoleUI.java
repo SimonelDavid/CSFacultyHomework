@@ -34,10 +34,7 @@ public class ConsoleUI extends AbstractUI {
         System.out.println("5 - Sterge prietenie");
         System.out.println("6 - Afiseaza toti utilizatorii");
         System.out.println("7 - Afiseaza toate prieteniile");
-        System.out.println("8 - Afiseaza numarul de comunitati");
-        System.out.println("9 - Afiseaza cea mai sociabila comunitate");
-        System.out.println("10 - Adauga valori predefinite");
-        System.out.println("11 - Afiseaza toate comunitatile");
+        System.out.println("8 - Adauga valori predefinite");
 
         String email1, email2, email;
 
@@ -61,10 +58,7 @@ public class ConsoleUI extends AbstractUI {
                     System.out.println("5 - Sterge prietenie");
                     System.out.println("6 - Afiseaza toti utilizatorii");
                     System.out.println("7 - Afiseaza toate prieteniile");
-                    System.out.println("8 - Afiseaza numarul de comunitati");
-                    System.out.println("9 - Afiseaza cea mai sociabila comunitate");
-                    System.out.println("10 - Adauga valori predefinite");
-                    System.out.println("11 - Afiseaza toate comunitatile");
+                    System.out.println("8 - Adauga valori predefinite");
                     break;
 
                 case 2:
@@ -100,34 +94,9 @@ public class ConsoleUI extends AbstractUI {
                     break;
 
                 case 8:
-                    System.out.println("The number of communities is: " + srv.numberOfCommunities());
-                    break;
-
-                case 9:
-                    {
-                        List<Iterable<User>> it1 = (List) srv.mostSociableCommunity();
-                        if(it1.size() == 1)
-                            System.out.println("The most sociable community is:");
-                        else
-                            System.out.println("The most sociable communities are:");
-
-                        for(var x : it1) {
-                            x.forEach(System.out::println);
-                            System.out.println("\n");
-                        }
-                    }
-                    break;
-
-                case 10:
                     System.out.print("Choose what iteration of predefined values: ");
                     int i = cin.nextInt();
                     srv.add_Predefined_Values(i);
-                    break;
-
-                case 11:
-                    System.out.print("Communities:");
-                    List<List<User>> l = srv.getAllCommunities();
-                    l.stream().forEach(System.out::println);
                     break;
                     
                 default:
