@@ -31,7 +31,6 @@ while True:
     
     unique_chars, data = s.recvfrom(4096)
 
-    unique_chars = unique_chars.decode('utf-8')
     print("caractere unice: ", unique_chars)
     
 # close the socket
