@@ -1,0 +1,126 @@
+Complexity metrics,Wed, 7 Dec 2022 22:21:00 EET
+Method,CogC,ev(G),iv(G),v(G)
+Main.main(String[]),0,1,1,1
+config.ApplicationContext.getPROPERTIES(),0,1,1,1
+config.Config.getProperties(),1,1,1,2
+domain.Entity.getId(),0,1,1,1
+domain.Entity.setId(ID),0,1,1,1
+"domain.FriendShip.FriendShip(User, User)",0,1,1,1
+domain.FriendShip.equals(Object),2,3,1,3
+domain.FriendShip.getFriendsFrom(),0,1,1,1
+domain.FriendShip.getUser1(),0,1,1,1
+domain.FriendShip.getUser2(),0,1,1,1
+domain.FriendShip.hashCode(),0,1,1,1
+domain.FriendShip.setFriendsFrom(LocalDateTime),0,1,1,1
+domain.FriendShip.setUser1(User),0,1,1,1
+domain.FriendShip.setUser2(User),0,1,1,1
+domain.FriendShip.toString(),0,1,1,1
+"domain.User.User(String, String, String)",0,1,1,1
+domain.User.addFriend(User),0,1,1,1
+domain.User.equals(Object),2,3,1,3
+domain.User.getEmail(),0,1,1,1
+domain.User.getFirstName(),0,1,1,1
+domain.User.getFriends(),0,1,1,1
+domain.User.getLastName(),0,1,1,1
+domain.User.hashCode(),0,1,1,1
+domain.User.removeFriend(User),0,1,1,1
+domain.User.setEmail(String),0,1,1,1
+domain.User.setFirstName(String),0,1,1,1
+domain.User.setLastName(String),0,1,1,1
+domain.User.toString(),0,1,1,1
+domain.validators.FriendshipValidator.validate(FriendShip),1,2,1,2
+domain.validators.UserValidator.validate(User),0,1,1,1
+domain.validators.UserValidator.validateEmail(String),4,5,4,5
+domain.validators.UserValidator.validateFirstName(String),4,5,4,5
+domain.validators.UserValidator.validateLastName(String),4,5,4,5
+domain.validators.ValidationException.ValidationException(),0,1,1,1
+domain.validators.ValidationException.ValidationException(String),0,1,1,1
+"domain.validators.ValidationException.ValidationException(String, Throwable)",0,1,1,1
+"domain.validators.ValidationException.ValidationException(String, Throwable, boolean, boolean)",0,1,1,1
+domain.validators.ValidationException.ValidationException(Throwable),0,1,1,1
+"repository.database.AbstractDataBaseRepository.AbstractDataBaseRepository(String, String, String, Validator<E>, String)",0,1,1,1
+repository.database.AbstractDataBaseRepository.AbstractDataBaseRepository(Validator<E>),0,1,1,1
+repository.database.AbstractDataBaseRepository.delete(ID),3,1,3,3
+"repository.database.FriendShipDataBase.FriendShipDataBase(String, String, String, FriendshipValidator, Repository)",0,1,1,1
+repository.database.FriendShipDataBase.findAll_DB(),2,1,3,3
+repository.database.FriendShipDataBase.findOne(UUID),1,1,2,2
+repository.database.FriendShipDataBase.loadData(),0,1,1,1
+repository.database.FriendShipDataBase.save(FriendShip),3,1,3,3
+repository.database.FriendShipDataBase.update(FriendShip),3,1,3,3
+"repository.database.UserDataBase.UserDataBase(String, String, String, UserValidator)",0,1,1,1
+repository.database.UserDataBase.findAll_DB(),2,1,3,3
+repository.database.UserDataBase.findOne(UUID),1,1,2,2
+repository.database.UserDataBase.loadData(),0,1,1,1
+repository.database.UserDataBase.save(User),3,1,3,3
+repository.database.UserDataBase.update(User),3,1,3,3
+"repository.file.AbstractFileRepository.AbstractFileRepository(String, Validator<E>)",0,1,1,1
+repository.file.AbstractFileRepository.AbstractFileRepository(Validator<E>),0,1,1,1
+repository.file.AbstractFileRepository.loadData(),4,1,5,5
+repository.file.AbstractFileRepository.save(E),1,1,2,2
+repository.file.AbstractFileRepository.writeToFile(E),1,1,2,2
+"repository.file.FriendshipFile.FriendshipFile(String, Validator<FriendShip>, Repository<UUID, User>)",0,1,1,1
+repository.file.FriendshipFile.createEntityAsString(FriendShip),0,1,1,1
+repository.file.FriendshipFile.extractEntity(List<String>),0,1,1,1
+"repository.file.UserFile.UserFile(String, Validator<User>)",0,1,1,1
+repository.file.UserFile.createEntityAsString(User),0,1,1,1
+repository.file.UserFile.extractEntity(List<String>),0,1,1,1
+repository.memory.InMemoryRepository.InMemoryRepository(Validator<E>),0,1,1,1
+repository.memory.InMemoryRepository.delete(ID),2,3,1,3
+repository.memory.InMemoryRepository.findAll(),0,1,1,1
+repository.memory.InMemoryRepository.findOne(ID),1,2,1,2
+repository.memory.InMemoryRepository.save(E),3,3,2,3
+repository.memory.InMemoryRepository.update(E),2,3,2,3
+"service.Service0.Service0(Repository, Repository)",0,1,1,1
+service.Service0.addUser(User),4,4,4,5
+service.Service0.add_Predefined_Values(int),1,1,1,5
+"service.Service0.createFriendship(String, String)",6,4,5,8
+"service.Service0.deleteFriendship(String, String)",12,6,10,13
+service.Service0.deleteUser(String),12,6,10,10
+service.Service0.getAllFriendships(),0,1,1,1
+service.Service0.getAllUsers(),0,1,1,1
+service.Service0.getUserByEmail(String),3,3,2,3
+ui.AbstractUI.AbstractUI(Service<UUID>),0,1,1,1
+ui.ConsoleUI.ConsoleUI(Service<UUID>),0,1,1,1
+ui.ConsoleUI.readEmail(),0,1,1,1
+ui.ConsoleUI.readUser(),0,1,1,1
+ui.ConsoleUI.start(),3,2,2,11
+
+Class,OCavg,OCmax,WMC
+Main,1.00,1,1
+config.ApplicationContext,1.00,1,1
+config.Config,1.00,1,1
+domain.Entity,1.00,1,2
+domain.FriendShip,1.20,3,12
+domain.User,1.15,3,15
+domain.constants.RepoStrategy,n/a,n/a,0
+domain.validators.FriendshipValidator,2.00,2,2
+domain.validators.UserValidator,4.00,5,16
+domain.validators.ValidationException,1.00,1,5
+repository.database.AbstractDataBaseRepository,1.33,2,4
+repository.database.FriendShipDataBase,1.50,2,9
+repository.database.UserDataBase,1.50,2,9
+repository.file.AbstractFileRepository,1.40,2,7
+repository.file.FriendshipFile,1.00,1,3
+repository.file.UserFile,1.00,1,3
+repository.memory.InMemoryRepository,2.17,3,13
+service.Service0,3.56,6,32
+ui.AbstractUI,1.00,1,1
+ui.ConsoleUI,3.75,12,15
+
+Package,v(G)avg,v(G)tot
+,1.00,1
+config,1.50,3
+domain,1.16,29
+domain.validators,2.30,23
+repository.database,2.07,31
+repository.file,1.55,17
+repository.memory,2.17,13
+service,5.22,47
+ui,3.00,15
+
+Module,v(G)avg,v(G)tot
+ReteaDeSocializare.main,2.13,179
+
+Project,v(G)avg,v(G)tot
+project,2.13,179
+
