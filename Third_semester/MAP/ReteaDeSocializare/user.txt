@@ -1,0 +1,5 @@
+4e2b9002-87f9-4b13-850c-574a4d942402;Simonel;David;simoneldavid17@gmail.com
+a9b0fcb7-90e0-4ced-8955-74c2ab36b095;Andrei;Muresan;amuresan@gmail.com
+95537c2f-16a1-41a2-a0dd-320fcf46b4b0;Sergiu;Olarescu;solarescu@gmail.com
+acdc3f8e-8d0b-47a2-bcdc-58ea10be550f;Mihai;Lisandru;mlis@gmail.com
+2d0e795b-cbb4-4999-a241-3ba9c95e4df4;Simonel;David;simoneldavid@gmail.com
