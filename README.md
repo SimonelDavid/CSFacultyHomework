@@ -25,7 +25,7 @@ Due to the fact that I created this repository int he final part of may 2022 for
 
 🔄 Dynamical Systems
 
-↗ Geometry
+📐 Geometry
 
 〰️ Graphs
 
@@ -47,3 +47,12 @@ Due to the fact that I created this repository int he final part of may 2022 for
 
 ### Semester 4
 
+🤖 Artificial Inteligence
+
+✒ Systems for design and implementation
+
+👨🏼‍💻 Software engineering
+
+📈 Database management systems
+
+🕸 Web programming
