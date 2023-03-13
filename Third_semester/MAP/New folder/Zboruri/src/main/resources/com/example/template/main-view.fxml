@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.template.MainController">
+    <padding>
+        <Insets bottom="40" left="40" right="40" top="40" />
+    </padding>
+   <HBox prefHeight="100.0" prefWidth="374.0">
+      <children>
+          <Label text="Username:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+          <TextField fx:id="clients" prefHeight="40" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+          <Button fx:id="submitButton" defaultButton="true" onAction="#login" prefHeight="40" prefWidth="100" text="Submit" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.rowSpan="1">
+              <GridPane.margin>
+                  <Insets bottom="20" left="0" right="0" top="20" />
+              </GridPane.margin>
+          </Button>
+      </children>
+   </HBox>
+    <Label fx:id="text" />
+
+</VBox>
