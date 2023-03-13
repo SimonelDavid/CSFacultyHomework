@@ -36,7 +36,7 @@ public class PatientsController {
 
     private BedType stringToBedType(String type){
         if(Objects.equals(type, "TIC"))return BedType.TIC;
-        if(Objects.equals(type, "TIM"))return BedType.TIC;
+        if(Objects.equals(type, "TIM"))return BedType.TIM;
         return BedType.TIIP;
     }
 

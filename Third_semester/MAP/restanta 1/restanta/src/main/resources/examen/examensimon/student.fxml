@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="440.0" prefWidth="1060.0" spacing="20.0"
+      xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="examen.examensimon.controller.StudentController">
+
+   <TableView fx:id="intrebariTableView" maxHeight="Infinity" maxWidth="Infinity">
+      <columns>
+         <TableColumn prefWidth="150.0" text="Intrebare">
+            <cellValueFactory>
+               <PropertyValueFactory property="descriere" />
+            </cellValueFactory>
+         </TableColumn>
+         <TableColumn prefWidth="85.0" text="V1" >
+            <cellValueFactory>
+               <PropertyValueFactory property="v1" />
+            </cellValueFactory>
+         </TableColumn>
+         <TableColumn prefWidth="85.0" text="V2" >
+            <cellValueFactory>
+               <PropertyValueFactory property="v2" />
+            </cellValueFactory>
+         </TableColumn>
+         <TableColumn prefWidth="85.0" text="V3" >
+            <cellValueFactory>
+               <PropertyValueFactory property="v3" />
+            </cellValueFactory>
+         </TableColumn>
+         <TableColumn prefWidth="85.0" text="Punctaj" >
+            <cellValueFactory>
+               <PropertyValueFactory property="punctaj" />
+            </cellValueFactory>
+         </TableColumn>
+      </columns>
+   </TableView>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

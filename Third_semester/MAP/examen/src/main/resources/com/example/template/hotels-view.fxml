@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.template.HotelsController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+
+    <HBox>
+        <VBox alignment="CENTER">
+            <Label text="Risc ridicat" />
+            <ListView fx:id="h" style="-fx-border-color: #ff0000;" />
+        </VBox>
+        <VBox alignment="CENTER">
+            <Label text="Risc mediu" />
+            <ListView fx:id="r" style="-fx-border-color: #FFA500;" />
+        </VBox>
+        <VBox alignment="CENTER">
+            <Label text="Risc redus" />
+            <ListView fx:id="n" style="-fx-border-color: #00ff00;" />
+        </VBox>
+    </HBox>
+
+    <HBox>
+        <Label text="  cmdr  "/>
+        <TextField fx:id="cmdr"/>
+        <Label text="  cma  "/>
+        <TextField fx:id="cma"/>
+        <Label text="  Râu  "/>
+        <TextField fx:id="loc"/>
+        <Label text="  "/>
+        <Button fx:id="unknownBtn" onAction="#compute" text="Calculează"/>
+    </HBox>
+</VBox>

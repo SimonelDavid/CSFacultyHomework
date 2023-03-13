@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="IU-222.4345.14">
-    <data-source name="rezerva@localhost" uuid="4c418550-00d2-424f-93e1-09de58256495">
-      <database-info product="PostgreSQL" version="15.0" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.5.0" dbms="POSTGRES" exact-version="15.0" exact-driver-version="42.5">
+    <data-source name="restanta@localhost" uuid="fdf52c51-cfdf-47a5-8c77-00155def5037">
+      <database-info product="PostgreSQL" version="15.1" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.5.0" dbms="POSTGRES" exact-version="15.1" exact-driver-version="42.5">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
@@ -15,10 +15,6 @@
           </node>
         </introspection-scope>
       </schema-mapping>
-    </data-source>
-    <data-source name="RESTAURANT@localhost" uuid="1b06f13e-5407-43ce-80db-4d97a79c2c2c">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
-      <schema-mapping />
     </data-source>
   </component>
 </project>

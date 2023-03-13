@@ -13,8 +13,8 @@ import java.io.IOException;
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        Service service = new Service(new BedsRepo("postgres", "adenozintrifosfat", "jdbc:postgresql://localhost:5432/upu"),
-                new PatientsRepo("jdbc:postgresql://localhost:5432/upu", "postgres", "adenozintrifosfat"));
+        Service service = new Service(new BedsRepo("postgres", "postgres", "jdbc:postgresql://localhost:5432/upu"),
+                new PatientsRepo("jdbc:postgresql://localhost:5432/upu", "postgres", "postgres"));
 
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 500, 400);
