@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30db6d6a-5e92-44f9-b4f6-e1103b07d1c4" name="Changes" comment="">
+    <list default="true" id="65b9e18c-c833-4b2c-bec8-aa47df425459" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../BONUS/OFERTE DE VACANTA/vacanta (fara cerinta 5)/.idea/discord.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../BONUS/OFERTE DE VACANTA/vacanta (fara cerinta 5)/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../BONUS/TRENURI/rezerva (fara backtracking)/.idea/discord.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../BONUS/TRENURI/rezerva (fara backtracking)/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../BONUS/rezerva/.idea/discord.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../BONUS/rezerva/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ati_upu_copii_cluj/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ati_upu_copii_cluj/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ati_upu_copii_cluj/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ati_upu_copii_cluj/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ati_upu_copii_cluj/.idea/vcs.xml" afterDir="false" />
@@ -28,23 +33,13 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Enum" />
-        <option value="Interface" />
-        <option value="FxmlFile" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2LBehe450mLAspvSwysVjhQ8WiL" />
+  <component name="ProjectId" id="2M0PtosPvfppjs2KNblvYuuYjcH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,7 +50,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/University/CSFacultyHomework/Third_semester/MAP/restanta"
+    "last_opened_file_path": "E:/University/CSFacultyHomework/Third_semester/MAP/Intrebari",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -64,44 +63,27 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.rezerva.HelloApplication" />
-      <module name="rezerva.main" />
-      <option name="PROGRAM_PARAMETERS" value="1 2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.rezerva.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examen.examensimon.HelloApplication" />
+      <module name="ExamenMartin" />
+      <option name="PROGRAM_PARAMETERS" value="dan elena" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.HelloApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="30db6d6a-5e92-44f9-b4f6-e1103b07d1c4" name="Changes" comment="" />
-      <created>1675349026919</created>
+      <changelist id="65b9e18c-c833-4b2c-bec8-aa47df425459" name="Changes" comment="" />
+      <created>1676901744230</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1675349026919</updated>
-      <workItem from="1675349029023" duration="1021000" />
-      <workItem from="1675367241677" duration="246000" />
-      <workItem from="1675405089921" duration="87000" />
-      <workItem from="1675935096630" duration="13060000" />
-      <workItem from="1675952805718" duration="604000" />
-      <workItem from="1675965736538" duration="758000" />
-      <workItem from="1675966848669" duration="40000" />
-      <workItem from="1675966993093" duration="488000" />
-      <workItem from="1675967660684" duration="365000" />
-      <workItem from="1676008681150" duration="1282000" />
+      <updated>1676901744230</updated>
+      <workItem from="1676901745596" duration="101000" />
+      <workItem from="1676901883793" duration="185000" />
+      <workItem from="1676902078815" duration="486000" />
+      <workItem from="1676902633592" duration="1121000" />
     </task>
     <servers />
   </component>
