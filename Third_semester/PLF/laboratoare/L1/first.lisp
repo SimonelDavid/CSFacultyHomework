@@ -1,2 +1,1 @@
-
-(write-line "Hello fella")
+(defun test () (print :test))
