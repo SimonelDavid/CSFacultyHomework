@@ -10,7 +10,6 @@ warnings.simplefilter('ignore')
 
 # plot a network -> de la profa
 def plotNetwork(G, communities):
-    np.random.seed(123) #to freeze the graph's view (networks uses a random view)
 
     pos = nx.spring_layout(G)  # compute graph layout
     plt.figure(figsize=(4, 4))  # image is 8 x 8 inches 
@@ -26,10 +25,9 @@ def greedyCommunitiesDetectionByTool(Graph, no_of_components_to_split=2):
 
     while(no_of_components_to_split > conex_components and conex_components < Graph.number_of_nodes()):
         # Calculam valoarea de centralitate
-        btw_centrality = nx.algorithms.centrality.edge_betweenness_centrality(Graph)
+        centrality = nx.algorithms.centrality.edge_betweenness_centrality(Graph)
         # sortam dupa centralitati
-        sorted_edges = sorted(btw_centrality.items(), key = lambda item:item[1], reverse = True)[0]
-        #print('Michia ', sorted_edges, ' stearsa.')
+        sorted_edges = sorted(centrality.items(), key = lambda item:item[1], reverse = True)[0]
         # stergem muchia cu cea mai mare centralitate
         Graph.remove_edge(*sorted_edges[0])
         conex_components = nx.algorithms.components.number_connected_components(Graph)
@@ -42,13 +40,10 @@ def greedyCommunitiesDetectionByTool(Graph, no_of_components_to_split=2):
 
     return communities
 
-# if __name__ == "__main__":
-#     crtDir =  os.getcwd()
-#     filePath = os.path.join(crtDir,  'real', 'dolphins', 'dolphins.gml')
-#     Graph = nx.read_gml(filePath, label='id')
-#     G_copy = Graph.copy()
-#     # print(type(Graph))              # <class 'networkx.classes.multigraph.MultiGraph'>
-#     # #print(Graph.edges(data=True))
-#     # print(Graph.nodes)
+if __name__ == "__main__":
+    current_directory =  os.getcwd()
+    file_path = os.path.join(current_directory,  '/Users/simoneldavid/Documents/CSFacultyHomework/Fourth_semester/Inteligenta Artificiala/Lab2/real/dolphins', 'dolphins.gml')
+    Graph = nx.read_gml(file_path, label='id')
+    copy_of_graph = Graph.copy()
 
-#     plotNetwork(G_copy, greedyCommunitiesDetectionByTool(Graph))
+    plotNetwork(copy_of_graph, greedyCommunitiesDetectionByTool(Graph))
