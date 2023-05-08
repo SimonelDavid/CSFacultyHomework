@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class HelloApplication extends Application {
+public class xHelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         Service service = new Service(new RiverRepo("jdbc:postgresql://localhost:5432/anar",
