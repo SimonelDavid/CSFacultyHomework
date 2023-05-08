@@ -28,188 +28,190 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.Label labelPret;
-            this.buttonConnect = new System.Windows.Forms.Button();
-            this.dataGridViewParent = new System.Windows.Forms.DataGridView();
-            this.dataGridViewChild = new System.Windows.Forms.DataGridView();
-            this.buttonDelete = new System.Windows.Forms.Button();
-            this.buttonAdd = new System.Windows.Forms.Button();
-            this.textBoxCantitate = new System.Windows.Forms.TextBox();
-            this.textBoxDenumire = new System.Windows.Forms.TextBox();
-            this.textBoxPret = new System.Windows.Forms.TextBox();
-            this.textBoxDescriere = new System.Windows.Forms.TextBox();
-            this.labelCantitate = new System.Windows.Forms.Label();
-            this.labelDenumire = new System.Windows.Forms.Label();
-            this.labelDescriere = new System.Windows.Forms.Label();
-            this.buttonUpdate = new System.Windows.Forms.Button();
-            labelPret = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewParent)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewChild)).BeginInit();
-            this.SuspendLayout();
+            Label labelPret;
+            buttonConnect = new Button();
+            dataGridViewParent = new DataGridView();
+            dataGridViewChild = new DataGridView();
+            buttonDelete = new Button();
+            buttonAdd = new Button();
+            textBoxCantitate = new TextBox();
+            textBoxDenumire = new TextBox();
+            textBoxPret = new TextBox();
+            textBoxDescriere = new TextBox();
+            labelCantitate = new Label();
+            labelDenumire = new Label();
+            labelDescriere = new Label();
+            buttonUpdate = new Button();
+            labelPret = new Label();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewParent).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewChild).BeginInit();
+            SuspendLayout();
             // 
             // labelPret
             // 
             labelPret.AutoSize = true;
-            labelPret.Location = new System.Drawing.Point(501, 7);
+            labelPret.Location = new Point(501, 7);
             labelPret.Name = "labelPret";
-            labelPret.Size = new System.Drawing.Size(35, 20);
+            labelPret.Size = new Size(35, 20);
             labelPret.TabIndex = 14;
             labelPret.Text = "Pret";
             // 
             // buttonConnect
             // 
-            this.buttonConnect.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.buttonConnect.Location = new System.Drawing.Point(434, 632);
-            this.buttonConnect.Name = "buttonConnect";
-            this.buttonConnect.Size = new System.Drawing.Size(149, 61);
-            this.buttonConnect.TabIndex = 1;
-            this.buttonConnect.Text = "Connect to DB";
-            this.buttonConnect.UseVisualStyleBackColor = false;
-            this.buttonConnect.Click += new System.EventHandler(this.buttonConnect_Click);
+            buttonConnect.BackColor = Color.WhiteSmoke;
+            buttonConnect.Location = new Point(434, 632);
+            buttonConnect.Name = "buttonConnect";
+            buttonConnect.Size = new Size(149, 61);
+            buttonConnect.TabIndex = 1;
+            buttonConnect.Text = "Connect to DB";
+            buttonConnect.UseVisualStyleBackColor = false;
+            buttonConnect.Click += buttonConnect_Click;
             // 
             // dataGridViewParent
             // 
-            this.dataGridViewParent.AllowUserToAddRows = false;
-            this.dataGridViewParent.AllowUserToDeleteRows = false;
-            this.dataGridViewParent.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewParent.Location = new System.Drawing.Point(28, 140);
-            this.dataGridViewParent.MultiSelect = false;
-            this.dataGridViewParent.Name = "dataGridViewParent";
-            this.dataGridViewParent.ReadOnly = true;
-            this.dataGridViewParent.RowHeadersWidth = 51;
-            this.dataGridViewParent.RowTemplate.Height = 29;
-            this.dataGridViewParent.Size = new System.Drawing.Size(466, 470);
-            this.dataGridViewParent.TabIndex = 5;
-            this.dataGridViewParent.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewParent_CellClick);
+            dataGridViewParent.AllowUserToAddRows = false;
+            dataGridViewParent.AllowUserToDeleteRows = false;
+            dataGridViewParent.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewParent.Location = new Point(28, 140);
+            dataGridViewParent.MultiSelect = false;
+            dataGridViewParent.Name = "dataGridViewParent";
+            dataGridViewParent.ReadOnly = true;
+            dataGridViewParent.RowHeadersWidth = 51;
+            dataGridViewParent.RowTemplate.Height = 29;
+            dataGridViewParent.Size = new Size(466, 470);
+            dataGridViewParent.TabIndex = 5;
+            dataGridViewParent.CellClick += dataGridViewParent_CellClick;
+            dataGridViewParent.CellContentClick += dataGridViewParent_CellClick;
             // 
             // dataGridViewChild
             // 
-            this.dataGridViewChild.AllowUserToAddRows = false;
-            this.dataGridViewChild.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewChild.Location = new System.Drawing.Point(511, 140);
-            this.dataGridViewChild.Name = "dataGridViewChild";
-            this.dataGridViewChild.ReadOnly = true;
-            this.dataGridViewChild.RowHeadersWidth = 51;
-            this.dataGridViewChild.RowTemplate.Height = 29;
-            this.dataGridViewChild.Size = new System.Drawing.Size(468, 470);
-            this.dataGridViewChild.TabIndex = 6;
-            this.dataGridViewChild.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewChild_CellEndEdit);
+            dataGridViewChild.AllowUserToAddRows = false;
+            dataGridViewChild.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewChild.Location = new Point(511, 140);
+            dataGridViewChild.Name = "dataGridViewChild";
+            dataGridViewChild.ReadOnly = true;
+            dataGridViewChild.RowHeadersWidth = 51;
+            dataGridViewChild.RowTemplate.Height = 29;
+            dataGridViewChild.Size = new Size(468, 470);
+            dataGridViewChild.TabIndex = 6;
+            dataGridViewChild.CellClick += dataGridViewChild_CellEndEdit;
+            dataGridViewChild.CellContentClick += dataGridViewChild_CellEndEdit;
+            dataGridViewChild.CellEndEdit += dataGridViewChild_CellEndEdit;
             // 
             // buttonDelete
             // 
-            this.buttonDelete.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.buttonDelete.Location = new System.Drawing.Point(430, 78);
-            this.buttonDelete.Name = "buttonDelete";
-            this.buttonDelete.Size = new System.Drawing.Size(138, 43);
-            this.buttonDelete.TabIndex = 7;
-            this.buttonDelete.Text = "Delete";
-            this.buttonDelete.UseVisualStyleBackColor = false;
-            this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
+            buttonDelete.BackColor = Color.WhiteSmoke;
+            buttonDelete.Location = new Point(430, 78);
+            buttonDelete.Name = "buttonDelete";
+            buttonDelete.Size = new Size(138, 43);
+            buttonDelete.TabIndex = 7;
+            buttonDelete.Text = "Delete";
+            buttonDelete.UseVisualStyleBackColor = false;
+            buttonDelete.Click += buttonDelete_Click;
             // 
             // buttonAdd
             // 
-            this.buttonAdd.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.buttonAdd.Location = new System.Drawing.Point(275, 78);
-            this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(138, 43);
-            this.buttonAdd.TabIndex = 7;
-            this.buttonAdd.Text = "Add";
-            this.buttonAdd.UseVisualStyleBackColor = false;
-            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
+            buttonAdd.BackColor = Color.WhiteSmoke;
+            buttonAdd.Location = new Point(275, 78);
+            buttonAdd.Name = "buttonAdd";
+            buttonAdd.Size = new Size(138, 43);
+            buttonAdd.TabIndex = 7;
+            buttonAdd.Text = "Add";
+            buttonAdd.UseVisualStyleBackColor = false;
+            buttonAdd.Click += buttonAdd_Click;
             // 
             // textBoxCantitate
             // 
-            this.textBoxCantitate.Location = new System.Drawing.Point(214, 30);
-            this.textBoxCantitate.Name = "textBoxCantitate";
-            this.textBoxCantitate.Size = new System.Drawing.Size(125, 27);
-            this.textBoxCantitate.TabIndex = 8;
+            textBoxCantitate.Location = new Point(214, 30);
+            textBoxCantitate.Name = "textBoxCantitate";
+            textBoxCantitate.Size = new Size(125, 27);
+            textBoxCantitate.TabIndex = 8;
             // 
             // textBoxDenumire
             // 
-            this.textBoxDenumire.Location = new System.Drawing.Point(359, 30);
-            this.textBoxDenumire.Name = "textBoxDenumire";
-            this.textBoxDenumire.Size = new System.Drawing.Size(125, 27);
-            this.textBoxDenumire.TabIndex = 9;
+            textBoxDenumire.Location = new Point(359, 30);
+            textBoxDenumire.Name = "textBoxDenumire";
+            textBoxDenumire.Size = new Size(125, 27);
+            textBoxDenumire.TabIndex = 9;
             // 
             // textBoxPret
             // 
-            this.textBoxPret.Location = new System.Drawing.Point(501, 30);
-            this.textBoxPret.Name = "textBoxPret";
-            this.textBoxPret.Size = new System.Drawing.Size(125, 27);
-            this.textBoxPret.TabIndex = 10;
+            textBoxPret.Location = new Point(501, 30);
+            textBoxPret.Name = "textBoxPret";
+            textBoxPret.Size = new Size(125, 27);
+            textBoxPret.TabIndex = 10;
             // 
             // textBoxDescriere
             // 
-            this.textBoxDescriere.Location = new System.Drawing.Point(642, 30);
-            this.textBoxDescriere.Name = "textBoxDescriere";
-            this.textBoxDescriere.Size = new System.Drawing.Size(125, 27);
-            this.textBoxDescriere.TabIndex = 11;
+            textBoxDescriere.Location = new Point(642, 30);
+            textBoxDescriere.Name = "textBoxDescriere";
+            textBoxDescriere.Size = new Size(125, 27);
+            textBoxDescriere.TabIndex = 11;
             // 
             // labelCantitate
             // 
-            this.labelCantitate.AutoSize = true;
-            this.labelCantitate.Location = new System.Drawing.Point(214, 7);
-            this.labelCantitate.Name = "labelCantitate";
-            this.labelCantitate.Size = new System.Drawing.Size(69, 20);
-            this.labelCantitate.TabIndex = 12;
-            this.labelCantitate.Text = "Cantitate";
+            labelCantitate.AutoSize = true;
+            labelCantitate.Location = new Point(214, 7);
+            labelCantitate.Name = "labelCantitate";
+            labelCantitate.Size = new Size(69, 20);
+            labelCantitate.TabIndex = 12;
+            labelCantitate.Text = "Cantitate";
             // 
             // labelDenumire
             // 
-            this.labelDenumire.AutoSize = true;
-            this.labelDenumire.Location = new System.Drawing.Point(359, 7);
-            this.labelDenumire.Name = "labelDenumire";
-            this.labelDenumire.Size = new System.Drawing.Size(74, 20);
-            this.labelDenumire.TabIndex = 13;
-            this.labelDenumire.Text = "Denumire";
+            labelDenumire.AutoSize = true;
+            labelDenumire.Location = new Point(359, 7);
+            labelDenumire.Name = "labelDenumire";
+            labelDenumire.Size = new Size(74, 20);
+            labelDenumire.TabIndex = 13;
+            labelDenumire.Text = "Denumire";
             // 
             // labelDescriere
             // 
-            this.labelDescriere.AutoSize = true;
-            this.labelDescriere.Location = new System.Drawing.Point(642, 7);
-            this.labelDescriere.Name = "labelDescriere";
-            this.labelDescriere.Size = new System.Drawing.Size(71, 20);
-            this.labelDescriere.TabIndex = 15;
-            this.labelDescriere.Text = "Descriere";
+            labelDescriere.AutoSize = true;
+            labelDescriere.Location = new Point(642, 7);
+            labelDescriere.Name = "labelDescriere";
+            labelDescriere.Size = new Size(71, 20);
+            labelDescriere.TabIndex = 15;
+            labelDescriere.Text = "Descriere";
             // 
             // buttonUpdate
             // 
-            this.buttonUpdate.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.buttonUpdate.Location = new System.Drawing.Point(583, 78);
-            this.buttonUpdate.Name = "buttonUpdate";
-            this.buttonUpdate.Size = new System.Drawing.Size(138, 43);
-            this.buttonUpdate.TabIndex = 16;
-            this.buttonUpdate.Text = "Update";
-            this.buttonUpdate.UseVisualStyleBackColor = false;
-            this.buttonUpdate.Click += new System.EventHandler(this.buttonUpdate_Click);
+            buttonUpdate.BackColor = Color.WhiteSmoke;
+            buttonUpdate.Location = new Point(583, 78);
+            buttonUpdate.Name = "buttonUpdate";
+            buttonUpdate.Size = new Size(138, 43);
+            buttonUpdate.TabIndex = 16;
+            buttonUpdate.Text = "Update";
+            buttonUpdate.UseVisualStyleBackColor = false;
+            buttonUpdate.Click += buttonUpdate_Click;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MediumTurquoise;
-            this.ClientSize = new System.Drawing.Size(1012, 698);
-            this.Controls.Add(this.buttonUpdate);
-            this.Controls.Add(this.labelDescriere);
-            this.Controls.Add(labelPret);
-            this.Controls.Add(this.labelDenumire);
-            this.Controls.Add(this.labelCantitate);
-            this.Controls.Add(this.textBoxDescriere);
-            this.Controls.Add(this.textBoxPret);
-            this.Controls.Add(this.textBoxDenumire);
-            this.Controls.Add(this.textBoxCantitate);
-            this.Controls.Add(this.buttonAdd);
-            this.Controls.Add(this.buttonDelete);
-            this.Controls.Add(this.dataGridViewChild);
-            this.Controls.Add(this.dataGridViewParent);
-            this.Controls.Add(this.buttonConnect);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewParent)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewChild)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.MediumTurquoise;
+            ClientSize = new Size(1012, 698);
+            Controls.Add(buttonUpdate);
+            Controls.Add(labelDescriere);
+            Controls.Add(labelPret);
+            Controls.Add(labelDenumire);
+            Controls.Add(labelCantitate);
+            Controls.Add(textBoxDescriere);
+            Controls.Add(textBoxPret);
+            Controls.Add(textBoxDenumire);
+            Controls.Add(textBoxCantitate);
+            Controls.Add(buttonAdd);
+            Controls.Add(buttonDelete);
+            Controls.Add(dataGridViewChild);
+            Controls.Add(dataGridViewParent);
+            Controls.Add(buttonConnect);
+            Name = "Form1";
+            Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)dataGridViewParent).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewChild).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
