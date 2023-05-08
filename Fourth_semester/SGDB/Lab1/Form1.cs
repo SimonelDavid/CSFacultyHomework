@@ -44,21 +44,21 @@ namespace Project1_SGBD
 
         private void dataGridViewParent_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (dataGridViewParent.Rows[e.RowIndex].Cells[e.ColumnIndex].Value == null)
-                return;
+
+            if (e.RowIndex >= 0)
+            {
+                string Id_Meniu = dataGridViewParent.Rows[e.RowIndex].Cells[0].Value.ToString();
 
 
-            string Id_Meniu = dataGridViewParent.Rows[e.RowIndex].Cells[0].Value.ToString();
+                //Fel_De_Mancare
 
-
-            //Fel_De_Mancare
-            
-            da.SelectCommand = new SqlCommand("SELECT * from Fel_De_Mancare " +
-                    "where Fel_De_Mancare.Id_Meniu = " + Id_Meniu + "; ", cs);
-            dsC.Clear();
-            da.Fill(dsC);
-            dataGridViewChild.DataSource = dsC.Tables[0];
-            bsC.DataSource = dsC.Tables[0];
+                da.SelectCommand = new SqlCommand("SELECT * from Fel_De_Mancare " +
+                        "where Fel_De_Mancare.Id_Meniu = " + Id_Meniu + "; ", cs);
+                dsC.Clear();
+                da.Fill(dsC);
+                dataGridViewChild.DataSource = dsC.Tables[0];
+                bsC.DataSource = dsC.Tables[0];
+            }
         }
 
         private void dataGridViewChild_CellEndEdit(object sender, DataGridViewCellEventArgs e)
@@ -91,17 +91,19 @@ namespace Project1_SGBD
                 MessageBox.Show("O linie in parinte trebuie slectata!");
                 return;
             }
-            else if(dataGridViewParent.SelectedCells.Count > 1)
+            /*
+            else if (dataGridViewParent.SelectedCells.Count > 1)
             {
                 MessageBox.Show("O singura linie in parinte trebuie slectata!");
                 return;
             }
+            */
 
             try
             {
                 float.Parse(textBoxPret.Text);
             }
-            catch(Exception exception)
+            catch (Exception exception)
             {
                 MessageBox.Show("Pretul trebuie sa fie un numar!", exception.Message);
                 return;
@@ -116,12 +118,12 @@ namespace Project1_SGBD
                 MessageBox.Show("Cantitatea trebuie sa fie un numar!", exception.Message);
                 return;
             }
-
+            object firstCellValue = dataGridViewParent.SelectedRows[0].Cells[0].Value;
+            int.TryParse(firstCellValue.ToString(), out int id_parinte);
             da.InsertCommand = new
                 SqlCommand("INSERT INTO Fel_De_Mancare(Id_Meniu, Cantitate, Denumire, Pret, Descriere)" +
                     " VALUES (@id,@C,@D,@P,@Descriere);", cs);
-            da.InsertCommand.Parameters.Add("@id",
-                SqlDbType.Int).Value = dsP.Tables[dataGridViewParent.CurrentCell.ColumnIndex].Rows[dataGridViewParent.CurrentCell.RowIndex][0];
+            da.InsertCommand.Parameters.AddWithValue("@id", SqlDbType.Int).Value = id_parinte;//add with value
 
             da.InsertCommand.Parameters.Add("@C",
                 SqlDbType.Float).Value = float.Parse(textBoxCantitate.Text);
@@ -208,7 +210,7 @@ namespace Project1_SGBD
 
             da.UpdateCommand.Parameters.Add("@id",
                 SqlDbType.Int).Value = dsC.Tables[0].Rows[dataGridViewChild.CurrentCell.RowIndex][0];
-       
+
             da.UpdateCommand.Parameters.Add("@C",
                 SqlDbType.Float).Value = float.Parse(textBoxCantitate.Text);
 

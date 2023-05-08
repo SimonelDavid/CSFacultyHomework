@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="505bfb0c-303e-4d38-9d50-4313699c4a86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/sga/admin-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SGDB/Lab1/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SGDB/Lab1/Form1.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SGDB/Lab1/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SGDB/Lab1/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SGDB/Lab1/Form1.resx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SGDB/Lab1/Form1.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SGDB/Lab1/bin/Debug/net6.0-windows/Project1-SGBD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SGDB/Lab1/bin/Debug/net6.0-windows/Project1-SGBD.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SGDB/Lab1/bin/Debug/net6.0-windows/Project1-SGBD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SGDB/Lab1/bin/Debug/net6.0-windows/Project1-SGBD.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SGDB/Lab1/obj/Debug/net6.0-windows/Project1-SGBD.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SGDB/Lab1/obj/Debug/net6.0-windows/Project1-SGBD.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SGDB/Lab1/obj/Debug/net6.0-windows/Project1-SGBD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SGDB/Lab1/obj/Debug/net6.0-windows/Project1-SGBD.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SGDB/Lab1/obj/Debug/net6.0-windows/Project1-SGBD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SGDB/Lab1/obj/Debug/net6.0-windows/Project1-SGBD.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SGDB/lab01/.idea/.idea.lab01/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Third_semester/MAP/anar/src/main/java/com/example/template/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third_semester/MAP/anar/src/main/java/com/example/template/HelloApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,14 +46,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/University/CSFacultyHomework/Fourth_semester/ISS/Faza I/SGA",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,6 +67,8 @@
       <workItem from="1680601915473" duration="1293000" />
       <workItem from="1680603224009" duration="1648000" />
       <workItem from="1680604885945" duration="227000" />
+      <workItem from="1681139986455" duration="31000" />
+      <workItem from="1682414696870" duration="1254000" />
     </task>
     <servers />
   </component>
