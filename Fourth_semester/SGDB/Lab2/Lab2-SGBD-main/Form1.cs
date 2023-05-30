@@ -104,7 +104,7 @@ namespace Lab2_SGBD
                 for (int i = 0; i < childNumberOfColumns; i++)
                 {
                     switch (types[i])
-                    {
+                    {//add with value
                         case "string":
                             da.InsertCommand.Parameters.Add(args[i + 1], SqlDbType.VarChar).Value = textBoxes[i].Text;
                             break;
