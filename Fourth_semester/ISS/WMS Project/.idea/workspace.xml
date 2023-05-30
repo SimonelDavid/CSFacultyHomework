@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0fb1171b-0ea7-4252-b027-d192a922658f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/SGA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/build/classes/java/main/com/example/sga/HelloApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/build/classes/java/main/com/example/sga/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/build/classes/java/main/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/build/libs/SGA-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/build/resources/main/com/example/sga/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/Untitled.mdj" beforeDir="false" afterPath="$PROJECT_DIR$/../Faza I/Untitled.mdj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/Use Case Description.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Faza I/Use Case Description.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SGDB/Lab1/.vs/Project1-SGBD/FileContentIndex/ac6e9417-e0f1-499d-ad13-0cb3519a5dab.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SGDB/Lab1/.vs/Project1-SGBD/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../SGDB/Lab1/.vs/Project1-SGBD/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SGDB/Lab1/bin/Debug/net6.0-windows/Project1-SGBD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../SGDB/Lab1/bin/Debug/net6.0-windows/Project1-SGBD.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SGDB/Lab1/bin/Debug/net6.0-windows/Project1-SGBD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../SGDB/Lab1/bin/Debug/net6.0-windows/Project1-SGBD.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SGDB/Lab1/obj/Debug/net6.0-windows/Project1-SGBD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../SGDB/Lab1/obj/Debug/net6.0-windows/Project1-SGBD.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SGDB/Lab1/obj/Debug/net6.0-windows/Project1-SGBD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../SGDB/Lab1/obj/Debug/net6.0-windows/Project1-SGBD.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SGDB/Lab2/Lab2-SGBD-main/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/../../SGDB/Lab2/Lab2-SGBD-main/App.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SGDB/Lab2/Lab2-SGBD-main/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../SGDB/Lab2/Lab2-SGBD-main/Form1.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QBnEz1t6iCeFVblMI9YiR5g1Py" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/University/mpp-proiect-java-SimonelDavid/JavaRest",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "0d8cc83d2a8a905714fc5ff5ec7b194c"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="WMS Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="WMS Project" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="wms-project.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wms.wmsproject.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wms.wmsproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fb1171b-0ea7-4252-b027-d192a922658f" name="Changes" comment="" />
+      <created>1684835736731</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684835736731</updated>
+      <workItem from="1684835737891" duration="64000" />
+      <workItem from="1684835819262" duration="2786000" />
+      <workItem from="1684838806490" duration="668000" />
+      <workItem from="1685297331819" duration="37000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
