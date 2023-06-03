@@ -1,0 +1,11 @@
+USE Bolt_Food;
+GO
+
+BEGIN TRANSACTION
+	WAITFOR DELAY '00:00:07'
+	INSERT INTO Meniu(Url_site) VALUES
+	('AAAABBBBBBBCCCCCCCCCCCC');
+COMMIT TRAN;
+
+select * from Meniu;
+delete from Meniu where Url_site = 'AAAABBBBBBBCCCCCCCCCCCC';
