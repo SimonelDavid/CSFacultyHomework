@@ -1,0 +1,84 @@
+D:\An2_sem2\SGBD\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.csproj.AssemblyReference.cache
+D:\An2_sem2\SGBD\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.Form1.resources
+D:\An2_sem2\SGBD\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.csproj.GenerateResource.cache
+D:\An2_sem2\SGBD\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.GeneratedMSBuildEditorConfig.editorconfig
+D:\An2_sem2\SGBD\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.AssemblyInfoInputs.cache
+D:\An2_sem2\SGBD\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.AssemblyInfo.cs
+D:\An2_sem2\SGBD\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.csproj.CoreCompileInputs.cache
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\pb1Practic.exe
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\pb1Practic.deps.json
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\pb1Practic.runtimeconfig.json
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\pb1Practic.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\pb1Practic.pdb
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\Azure.Core.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\Azure.Identity.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\System.Memory.Data.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\An2_sem2\SGBD\pb1Practic\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\An2_sem2\SGBD\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.csproj.CopyComplete
+D:\An2_sem2\SGBD\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.dll
+D:\An2_sem2\SGBD\pb1Practic\obj\Debug\net6.0-windows\refint\pb1Practic.dll
+D:\An2_sem2\SGBD\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.pdb
+D:\An2_sem2\SGBD\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.genruntimeconfig.cache
+D:\An2_sem2\SGBD\pb1Practic\obj\Debug\net6.0-windows\ref\pb1Practic.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\pb1Practic.exe
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\pb1Practic.deps.json
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\pb1Practic.runtimeconfig.json
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\pb1Practic.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\pb1Practic.pdb
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\Azure.Core.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\Azure.Identity.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\System.Memory.Data.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.csproj.AssemblyReference.cache
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.Form1.resources
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.csproj.GenerateResource.cache
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.GeneratedMSBuildEditorConfig.editorconfig
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.AssemblyInfoInputs.cache
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.AssemblyInfo.cs
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.csproj.CoreCompileInputs.cache
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.csproj.CopyComplete
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\obj\Debug\net6.0-windows\refint\pb1Practic.dll
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.pdb
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\obj\Debug\net6.0-windows\pb1Practic.genruntimeconfig.cache
+E:\University\CSFacultyHomework\Fourth_semester\SGDB\Modele Partial\P2\pb1Practic\obj\Debug\net6.0-windows\ref\pb1Practic.dll

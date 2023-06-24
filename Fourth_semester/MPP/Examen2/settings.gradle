@@ -1,0 +1,9 @@
+rootProject.name = 'Examen'
+include 'Domain'
+include 'Repository'
+include 'Service'
+include 'Server'
+include 'Networking'
+include 'Client'
+include 'ServicesRest'
+
