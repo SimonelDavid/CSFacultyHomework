@@ -27,7 +27,7 @@ while($stmt->fetch()) {
 }
 echo '</select>';
 
-$sql = "SELECT id, name FROM students";
+$sql = "SELECT id, username FROM students";
 
 $stmt = $mysqli->prepare($sql);
 $stmt -> execute();

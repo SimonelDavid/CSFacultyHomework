@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ca0e8c0-4e18-42ca-85bd-52a046914322" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mpp-proiect-java-SimonelDavid.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/bd.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/JdbcUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/controllers/AngajatController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/controllers/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/controllers/Observable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/controllers/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/domain/Angajat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/domain/Bilet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/domain/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/domain/Entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/domain/Zbor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/domain/ZborDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/exceptions/DuplicateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/exceptions/LackException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/exceptions/NrLocuriException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/exceptions/ValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/repository/AngajatDatabaseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/repository/BiletDatabaseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/repository/ClientDatabaseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/repository/MemoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/repository/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/repository/ZborDatabaseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/service/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/validator/AngajatValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/validator/BiletValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/validator/ClientValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/validator/Validator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/com/example/proiectjava/validator/ZborValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/resources/com/example/proiectjava/angajat-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/resources/com/example/proiectjava/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/main/turism.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/src/test/java/TestDomain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zboruri/target/MPP_BD.log" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/ClientFX">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Server">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AgentieSockets" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AgentieSockets" type="f1a62948:ProjectNode" />
+                <item name="ClientFX" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AgentieSockets" type="f1a62948:ProjectNode" />
+                <item name="ClientFX" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AgentieSockets" type="f1a62948:ProjectNode" />
+                <item name="ClientFX" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AgentieSockets" type="f1a62948:ProjectNode" />
+                <item name="Server" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AgentieSockets" type="f1a62948:ProjectNode" />
+                <item name="Server" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AgentieSockets" type="f1a62948:ProjectNode" />
+                <item name="Server" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AgentieSockets" type="f1a62948:ProjectNode" />
+                <item name="Services" type="2d1252cf:ModuleNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PW0NlUoye4EAoxS6hpikhpTR5U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/University/CSFacultyHomework/Fourth_semester/ISS/WMS Project",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="RunManager" selected="Gradle.AgentieSockets:ClientFX [run]">
+    <configuration name="AgentieSockets:ClientFX [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ClientFX" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AgentieSockets:Server [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Server" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.AgentieSockets:ClientFX [run]" />
+        <item itemvalue="Gradle.AgentieSockets:Server [run]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ca0e8c0-4e18-42ca-85bd-52a046914322" name="Changes" comment="" />
+      <created>1683557496640</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683557496640</updated>
+      <workItem from="1683557498004" duration="3452000" />
+      <workItem from="1684765550314" duration="474000" />
+      <workItem from="1684767129920" duration="653000" />
+      <workItem from="1684833557591" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

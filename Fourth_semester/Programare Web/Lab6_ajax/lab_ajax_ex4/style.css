@@ -1,0 +1,16 @@
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  td {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
