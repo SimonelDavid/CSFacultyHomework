@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<destinations>
-  <destination from="Oras1" to="Oras2" />
-  <destination from="Oras1" to="Oras3" />
-  <destination from="Oras2" to="Oras4" />
-  <destination from="Oras2" to="Oras5" />
-  <destination from="Oras6" to="Oras7" />
-</destinations>

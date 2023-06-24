@@ -4,47 +4,81 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fb1171b-0ea7-4252-b027-d192a922658f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/7.5.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/file-system.probe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/SGA.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/build/classes/java/main/com/example/sga/HelloApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/build/classes/java/main/com/example/sga/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/build/classes/java/main/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/build/libs/SGA-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/build/resources/main/com/example/sga/hello-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/SGA/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/Untitled.mdj" beforeDir="false" afterPath="$PROJECT_DIR$/../Faza I/Untitled.mdj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Faza I/Use Case Description.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Faza I/Use Case Description.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SGDB/Lab1/.vs/Project1-SGBD/FileContentIndex/ac6e9417-e0f1-499d-ad13-0cb3519a5dab.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SGDB/Lab1/.vs/Project1-SGBD/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../SGDB/Lab1/.vs/Project1-SGBD/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SGDB/Lab1/bin/Debug/net6.0-windows/Project1-SGBD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../SGDB/Lab1/bin/Debug/net6.0-windows/Project1-SGBD.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SGDB/Lab1/bin/Debug/net6.0-windows/Project1-SGBD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../SGDB/Lab1/bin/Debug/net6.0-windows/Project1-SGBD.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SGDB/Lab1/obj/Debug/net6.0-windows/Project1-SGBD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../SGDB/Lab1/obj/Debug/net6.0-windows/Project1-SGBD.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SGDB/Lab1/obj/Debug/net6.0-windows/Project1-SGBD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../SGDB/Lab1/obj/Debug/net6.0-windows/Project1-SGBD.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SGDB/Lab2/Lab2-SGBD-main/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/../../SGDB/Lab2/Lab2-SGBD-main/App.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SGDB/Lab2/Lab2-SGBD-main/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../SGDB/Lab2/Lab2-SGBD-main/Form1.cs" afterDir="false" />
+    <list default="true" id="75ea9c80-0bbd-4359-8cdb-7be961fa6238" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/Design files/worker-window.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Faza I/Design files/worker-window.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Faza I/Use Case Diagram.mdj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/32709048-59c4-47ac-8a24-c0505f7e5d8f.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/32709048-59c4-47ac-8a24-c0505f7e5d8f/storage_v2/_src_/database/iss_db.9B-3uQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/32709048-59c4-47ac-8a24-c0505f7e5d8f/storage_v2/_src_/database/iss_db.9B-3uQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/32709048-59c4-47ac-8a24-c0505f7e5d8f/storage_v2/_src_/database/iss_db.9B-3uQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/32709048-59c4-47ac-8a24-c0505f7e5d8f/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/32709048-59c4-47ac-8a24-c0505f7e5d8f/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/32709048-59c4-47ac-8a24-c0505f7e5d8f/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/Retea_De_Socializare.GgXA7A.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/Retea_De_Socializare.GgXA7A/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/Retea_De_Socializare.GgXA7A/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/Retea_De_Socializare.GgXA7A/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/Retea_De_Socializare.GgXA7A/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/Retea_De_Socializare.GgXA7A/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/exam.H7gvAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/exam.H7gvAA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/exam.H7gvAA/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/exam.H7gvAA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/exam.H7gvAA/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/exam.H7gvAA/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/examen.CDkisw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/examen.CDkisw/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/examen.CDkisw/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/restanta.LhXp6w.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/restanta.LhXp6w/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/restanta.LhXp6w/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/restanta.LhXp6w/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/restanta.LhXp6w/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/restaurant.PUtalg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/restaurant.PUtalg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/restaurant.PUtalg/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/restaurants.1hzvNA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/restaurants.1hzvNA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/restaurants.1hzvNA/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/restaurants.1hzvNA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/restaurants.1hzvNA/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/upu.OsUBAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/upu.OsUBAA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/upu.OsUBAA/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/upu.OsUBAA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/upu.OsUBAA/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/upu.OsUBAA/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/zboruri.gfJE4w.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/zboruri.gfJE4w/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/zboruri.gfJE4w/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/zboruri.gfJE4w/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/zboruri.gfJE4w/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b00a3de7-bc5e-4dac-adc9-057e93a06f0c/storage_v2/_src_/database/zboruri.gfJE4w/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wms/wmsproject/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wms/wmsproject/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wms/wmsproject/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wms/wmsproject/gui/start-window.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wms/wmsproject/gui/start-window.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wms/wmsproject/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programare Web/Lab07/2/fetch_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programare Web/Lab07/2/fetch_products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programare Web/Lab07/3/teacher_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programare Web/Lab07/3/teacher_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programare Web/Lab6_ajax/ex1/destinations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programare Web/Lab6_ajax/ex1/getDestinations.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programare Web/Lab6_ajax/ex1/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +90,44 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="wms-project" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="wms-project" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="wms-project" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2QBnEz1t6iCeFVblMI9YiR5g1Py" />
+  <component name="ProjectId" id="2Qk7Z8wg8PgRhvUw04yl846Yetc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -70,17 +135,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/University/mpp-proiect-java-SimonelDavid/JavaRest",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
+    "last_opened_file_path": "C:/xampp/tomcat/webapps/Lab08",
     "spring.configuration.checksum": "0d8cc83d2a8a905714fc5ff5ec7b194c"
   },
   "keyToStringList": {
@@ -89,51 +147,54 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="WMS Project" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Gradle.WMS Project [run]">
+    <configuration name="WMS Project [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="WMS Project" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="wms-project.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wms.wmsproject.Main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wms.wmsproject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Main" />
+        <item itemvalue="Gradle.WMS Project [run]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0fb1171b-0ea7-4252-b027-d192a922658f" name="Changes" comment="" />
-      <created>1684835736731</created>
+      <changelist id="75ea9c80-0bbd-4359-8cdb-7be961fa6238" name="Changes" comment="" />
+      <created>1685885778686</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1684835736731</updated>
-      <workItem from="1684835737891" duration="64000" />
-      <workItem from="1684835819262" duration="2786000" />
-      <workItem from="1684838806490" duration="668000" />
-      <workItem from="1685297331819" duration="37000" />
+      <updated>1685885778686</updated>
+      <workItem from="1685885779990" duration="3448000" />
+      <workItem from="1685975111684" duration="2167000" />
+      <workItem from="1686040910940" duration="1769000" />
+      <workItem from="1686043416404" duration="49000" />
+      <workItem from="1686065604201" duration="77000" />
     </task>
     <servers />
   </component>
@@ -150,15 +211,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.RuntimeException" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

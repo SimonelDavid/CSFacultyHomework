@@ -1,0 +1,8 @@
+rootProject.name = 'AgentieSockets'
+include 'ClientFX'
+include 'Model'
+include 'Services'
+include 'Networking'
+include 'Persistence'
+include 'Server'
+

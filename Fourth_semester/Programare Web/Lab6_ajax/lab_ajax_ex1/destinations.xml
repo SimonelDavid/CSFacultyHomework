@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<destinations>
+  <destination from="Brasov" to="Sibiu" />
+  <destination from="Brasov" to="Bucuresti" />
+  <destination from="Sibiu" to="Cluj-Napoca" />
+  <destination from="Sibiu" to="Piatra Neamt" />
+  <destination from="Cluj-Napoca" to="Craiova" />
+  <destination from="Cluj-Napoca" to="Bucuresti" />
+  <destination from="Cluj-Napoca" to="Piatra" />
+</destinations>
