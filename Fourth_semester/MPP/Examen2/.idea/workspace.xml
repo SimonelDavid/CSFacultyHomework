@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="708d9e69-50ce-4ff2-8a8c-bc9742e8f4fc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ServicesRest/server.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempluExamen/.idea/ExempluExamen.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempluExamen/.idea/modules/Domain/Martin.Domain.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempluExamen/.idea/modules/FX/Martin.FX.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempluExamen/.idea/modules/Martin.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempluExamen/.idea/modules/Networking/Martin.Networking.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempluExamen/.idea/modules/Persistence/Martin.Persistence.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempluExamen/.idea/modules/RestServices/Martin.RestServices.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempluExamen/.idea/modules/ServerRPC/Martin.ServerRPC.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExempluExamen/.idea/modules/Services/Martin.Services.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joc gropi/Martin - examen/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joc gropi/Martin - examen/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joc gropi/Martin - examen/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joc gropi/Martin - examen/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joc gropi/Martin - examen/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joc gropi/Martin - examen/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joc gropi/Martin - examen/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joc gropi/Martin - examen/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Joc gropi/Martin - examen/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/TalentShow/.idea/ExempluExamen.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/TalentShow/.idea/TalentShow.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/TalentShow/.idea/modules/Domain/Martin.Domain.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/TalentShow/.idea/modules/FX/Martin.FX.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/TalentShow/.idea/modules/Martin.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/TalentShow/.idea/modules/Networking/Martin.Networking.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/TalentShow/.idea/modules/Persistence/Martin.Persistence.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/TalentShow/.idea/modules/RestServices/Martin.RestServices.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/TalentShow/.idea/modules/ServerRPC/Martin.ServerRPC.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/TalentShow/.idea/modules/Services/Martin.Services.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Talent_show/Domain/src/main/java/org/example/domain/Jurry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Talent_show/Domain/src/main/java/org/example/domain/Participant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/Talent_show/Domain/src/main/java/org/example/domain/Rezultate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/classes/java/main/org/example/client/LoginController$StageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/classes/java/main/org/example/client/LoginController$StageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/classes/java/main/org/example/client/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/classes/java/main/org/example/client/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/classes/java/main/org/example/client/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/classes/java/main/org/example/client/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/classes/java/main/org/example/client/StartClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/classes/java/main/org/example/client/StartClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/classes/java/main/org/example/client/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/classes/java/main/org/example/client/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/build/libs/Domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/build/libs/Domain-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Networking/build/libs/Networking-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Networking/build/libs/Networking-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/build/libs/Repository-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/build/libs/Repository-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/build/resources/main/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/build/resources/main/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/server.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Database" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Database" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/target/MPP_BD.log" beforeDir="false" afterPath="$PROJECT_DIR$/Server/target/MPP_BD.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/build/libs/Service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Service/build/libs/Service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicesRest/build/classes/java/main/org/example/rest/ControllerRest.class" beforeDir="false" afterPath="$PROJECT_DIR$/ServicesRest/build/classes/java/main/org/example/rest/ControllerRest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicesRest/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ServicesRest/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicesRest/src/main/java/org/example/rest/ControllerRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicesRest/src/main/java/org/example/rest/ControllerRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenSilvia/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamenSilvia/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenSilvia/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamenSilvia/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenSilvia/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamenSilvia/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mpp-proiect-csharp-SimonelDavid" beforeDir="false" afterPath="$PROJECT_DIR$/../mpp-proiect-csharp-SimonelDavid" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/ServicesRest">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Server">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Client">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Examen" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Examen" type="f1a62948:ProjectNode" />
+                <item name="Client" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Examen" type="f1a62948:ProjectNode" />
+                <item name="Client" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Examen" type="f1a62948:ProjectNode" />
+                <item name="Client" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Examen" type="f1a62948:ProjectNode" />
+                <item name="Server" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Examen" type="f1a62948:ProjectNode" />
+                <item name="Server" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Examen" type="f1a62948:ProjectNode" />
+                <item name="Server" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Examen" type="f1a62948:ProjectNode" />
+                <item name="ServicesRest" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Examen" type="f1a62948:ProjectNode" />
+                <item name="ServicesRest" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Examen" type="f1a62948:ProjectNode" />
+                <item name="ServicesRest" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Rh9VYx8dpbl1GBBbVaxWlYR3gM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/University/CSFacultyHomework/Fourth_semester/MPP/Joc gropi/Martin - examen",
+    "spring.configuration.checksum": "1ac4530d62eb34126595e2b3bea3a2d1"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="Gradle.Examen2:Server [run]">
+    <configuration name="Examen2:Server [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Server" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Examen2:ServicesRest [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ServicesRest" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="StartRestServices" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Examen.ServicesRest.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="start.StartRestServices" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Examen2:Server [run]" />
+        <item itemvalue="Gradle.Examen2:ServicesRest [bootRun]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="708d9e69-50ce-4ff2-8a8c-bc9742e8f4fc" name="Changes" comment="" />
+      <created>1687691469976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687691469976</updated>
+      <workItem from="1687691471264" duration="306000" />
+      <workItem from="1687705688878" duration="6854000" />
+      <workItem from="1687756749362" duration="292000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

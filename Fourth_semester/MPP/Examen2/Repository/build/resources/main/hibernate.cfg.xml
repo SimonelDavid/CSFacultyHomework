@@ -7,7 +7,7 @@
     <session-factory>
         <property name="dialect">org.hibernate.dialect.SQLiteDialect</property>
         <property name="connection.driver_class">org.sqlite.JDBC</property>
-        <property name="connection.url">jdbc:sqlite:C:\Users\andre\Desktop\Probleme\Examen2\Server\Database</property>
+        <property name="connection.url">jdbc:sqlite:E:\University\CSFacultyHomework\Fourth_semester\MPP\Examen2\Server\Database</property>
 
         <property name="hibernate.hbm2ddl.auto">update</property>
 
