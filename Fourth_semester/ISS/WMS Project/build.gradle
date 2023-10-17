@@ -25,11 +25,12 @@ tasks.withType(JavaCompile) {
 }
 
 application {
+    mainModule = 'com.wms.wmsproject'
     mainClass = 'com.wms.wmsproject.Main'
 }
 
 javafx {
-    version = '19'
+    version = '17'
     modules = ['javafx.controls', 'javafx.fxml']
 }
 

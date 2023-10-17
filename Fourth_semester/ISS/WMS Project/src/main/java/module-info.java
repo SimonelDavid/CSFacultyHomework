@@ -1,4 +1,4 @@
-module com.wms.wmsproject {
+open module com.wms.wmsproject {
     requires javafx.controls;
     requires javafx.fxml;
     requires spring.boot.autoconfigure;
@@ -11,6 +11,6 @@ module com.wms.wmsproject {
     requires spring.data.jpa;
 
 
-    opens com.wms.wmsproject to javafx.fxml;
+    //opens com.wms.wmsproject to javafx.fxml;
     exports com.wms.wmsproject;
 }
