@@ -25,6 +25,7 @@ tasks.withType(JavaCompile) {
 }
 
 application {
+    mainModule = 'com.wms.wmsproject'
     mainClass = 'com.wms.wmsproject.Main'
 }
 

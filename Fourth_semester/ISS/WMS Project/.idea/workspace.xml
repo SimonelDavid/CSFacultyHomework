@@ -169,6 +169,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="WMS Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="wms-project.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wms.wmsproject.Main" />
@@ -179,6 +185,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.WMS Project [run]" />
+        <item itemvalue="Spring Boot.Main" />
       </list>
     </recent_temporary>
   </component>
