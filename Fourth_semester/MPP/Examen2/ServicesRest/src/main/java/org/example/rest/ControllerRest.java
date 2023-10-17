@@ -29,13 +29,14 @@ public class ControllerRest {
     @Autowired
     private IWordRepository wordRepository;
 
-    @RequestMapping(value="/games", method = RequestMethod.GET)
-    public String[] getAllGames(){
+    @RequestMapping(value="/games/{id}", method = RequestMethod.GET)
+    public String[] getAllGames(@PathVariable Integer id){
         System.out.println("Getting all games ...");
         try {
             Game[] games = ((List<Game>) gameRepository.getAll()).toArray(new Game[0]);
             List<String> gamesStrings = new ArrayList<>();
-            for(Game g : games){
+            try {
+                Game g = gameRepository.getById(id);
                 String aliasplayer = userRepository.getById(g.getIdPlayer()).getEmail();
                 String playerinput = g.getPlayerInput();
                 String config = configRepository.getById(g.getIdConfig()).getIdwords();
@@ -45,6 +46,9 @@ public class ControllerRest {
                         "config: " + config + ";   " +
                         "score: " + score + " }";
                 gamesStrings.add(gameString);
+            }
+            catch (Exception e){
+                throw new RuntimeException(e);
             }
             return ((List<String>) gamesStrings).toArray(new String[0]);
         } catch (Exception e) {

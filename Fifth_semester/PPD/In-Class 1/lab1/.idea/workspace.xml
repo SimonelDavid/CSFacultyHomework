@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b274003-0631-4243-b5c2-93504ade4c0e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/ServicesRest/server.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/ExempluExamen/.idea/ExempluExamen.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/ExempluExamen/.idea/modules/Domain/Martin.Domain.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/ExempluExamen/.idea/modules/FX/Martin.FX.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/ExempluExamen/.idea/modules/Martin.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/ExempluExamen/.idea/modules/Networking/Martin.Networking.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/ExempluExamen/.idea/modules/Persistence/Martin.Persistence.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/ExempluExamen/.idea/modules/RestServices/Martin.RestServices.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/ExempluExamen/.idea/modules/ServerRPC/Martin.ServerRPC.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/ExempluExamen/.idea/modules/Services/Martin.Services.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Joc gropi/Martin - examen/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Joc gropi/Martin - examen/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Joc gropi/Martin - examen/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Joc gropi/Martin - examen/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Joc gropi/Martin - examen/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Joc gropi/Martin - examen/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Joc gropi/Martin - examen/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Joc gropi/Martin - examen/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Joc gropi/Martin - examen/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Practice/TalentShow/.idea/ExempluExamen.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Practice/TalentShow/.idea/TalentShow.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Practice/TalentShow/.idea/modules/Domain/Martin.Domain.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Practice/TalentShow/.idea/modules/FX/Martin.FX.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Practice/TalentShow/.idea/modules/Martin.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Practice/TalentShow/.idea/modules/Networking/Martin.Networking.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Practice/TalentShow/.idea/modules/Persistence/Martin.Persistence.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Practice/TalentShow/.idea/modules/RestServices/Martin.RestServices.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Practice/TalentShow/.idea/modules/ServerRPC/Martin.ServerRPC.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Practice/TalentShow/.idea/modules/Services/Martin.Services.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Practice/Talent_show/Domain/src/main/java/org/example/domain/Jurry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Practice/Talent_show/Domain/src/main/java/org/example/domain/Participant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Practice/Talent_show/Domain/src/main/java/org/example/domain/Rezultate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/7.5.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/7.5.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Client/build/classes/java/main/org/example/client/LoginController$StageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Client/build/classes/java/main/org/example/client/LoginController$StageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Client/build/classes/java/main/org/example/client/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Client/build/classes/java/main/org/example/client/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Client/build/classes/java/main/org/example/client/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Client/build/classes/java/main/org/example/client/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Client/build/classes/java/main/org/example/client/StartClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Client/build/classes/java/main/org/example/client/StartClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Client/build/classes/java/main/org/example/client/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Client/build/classes/java/main/org/example/client/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Client/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Client/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Domain/build/libs/Domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Domain/build/libs/Domain-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Networking/build/libs/Networking-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Networking/build/libs/Networking-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Repository/build/libs/Repository-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Repository/build/libs/Repository-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Repository/build/resources/main/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Repository/build/resources/main/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Repository/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Repository/server.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Repository/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Repository/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Server/Database" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Server/Database" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Server/target/MPP_BD.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Server/target/MPP_BD.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Service/build/libs/Service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/Service/build/libs/Service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/ServicesRest/build/classes/java/main/org/example/rest/ControllerRest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/ServicesRest/build/classes/java/main/org/example/rest/ControllerRest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/ServicesRest/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/ServicesRest/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/ServicesRest/src/main/java/org/example/rest/ControllerRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/ServicesRest/src/main/java/org/example/rest/ControllerRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/Examen2/server.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/ExamenSilvia/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/ExamenSilvia/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/ExamenSilvia/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/ExamenSilvia/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/ExamenSilvia/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/ExamenSilvia/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/mpp-proiect-csharp-SimonelDavid" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Fourth_semester/MPP/mpp-proiect-csharp-SimonelDavid" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2WZdVqXiCB3sZQXvqVIDLHiSxun" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Lab1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lab1.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.lab1.Lab1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b274003-0631-4243-b5c2-93504ade4c0e" name="Changes" comment="" />
+      <created>1696944068094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696944068094</updated>
+      <workItem from="1696944069421" duration="3076000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

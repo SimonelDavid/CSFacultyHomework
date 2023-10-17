@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="609.0" prefWidth="917.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.AngajatController">
+   <children>
+      <TabPane prefHeight="610.0" prefWidth="1141.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Zboruri">
+               <content>
+                  <AnchorPane prefHeight="582.0" prefWidth="1009.0">
+                     <children>
+                        <TableView fx:id="_tableZbor" layoutX="390.0" layoutY="149.0" prefHeight="415.0" prefWidth="358.0">
+                           <columns>
+                              <TableColumn prefWidth="75.0" text="Ora" />
+                              <TableColumn prefWidth="75.0" text="Nr locuri" />
+                           </columns>
+                        </TableView>
+                        <Label layoutX="390.0" layoutY="18.0" prefHeight="35.0" prefWidth="109.0" text="Destinatie">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="_destinatie" layoutX="508.0" layoutY="17.0" prefHeight="38.0" prefWidth="238.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="390.0" layoutY="60.0" prefHeight="35.0" prefWidth="109.0" text="Data">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <DatePicker fx:id="_data" layoutX="454.0" layoutY="65.0" prefHeight="26.0" prefWidth="294.0" />
+                        <Button fx:id="cautaB" layoutX="487.0" layoutY="95.0" mnemonicParsing="false" onAction="#cauta" prefHeight="43.0" prefWidth="195.0" text="Cauta zbor">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Label layoutX="760.0" layoutY="19.0" prefHeight="35.0" prefWidth="109.0" text="Client">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="_client" layoutX="878.0" layoutY="18.0" prefHeight="38.0" prefWidth="238.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="760.0" layoutY="66.0" prefHeight="35.0" prefWidth="109.0" text="Turisti">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="_turisti" layoutX="878.0" layoutY="65.0" prefHeight="38.0" prefWidth="238.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="760.0" layoutY="111.0" prefHeight="35.0" prefWidth="109.0" text="Adresa">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="_adresa" layoutX="878.0" layoutY="110.0" prefHeight="38.0" prefWidth="238.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="_locuri" layoutX="878.0" layoutY="157.0" prefHeight="38.0" prefWidth="238.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="760.0" layoutY="158.0" prefHeight="35.0" prefWidth="109.0" text="Nr locuri">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="cumparaB" layoutX="847.0" layoutY="208.0" mnemonicParsing="false" onAction="#cumpara" prefHeight="43.0" prefWidth="195.0" text="Cumpara bilet">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Label fx:id="buyError" contentDisplay="CENTER" layoutX="769.0" layoutY="251.0" prefHeight="46.0" prefWidth="373.0" textAlignment="CENTER" textFill="#c43838">
+                           <font>
+                              <Font name="Times New Roman" size="30.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="tableZbor" layoutX="14.0" layoutY="14.0" prefHeight="547.0" prefWidth="367.0">
+                          <columns>
+                            <TableColumn prefWidth="75.0" text="Destinatie" />
+                            <TableColumn prefWidth="75.0" text="Data" />
+                              <TableColumn prefWidth="75.0" text="Ora" />
+                              <TableColumn prefWidth="75.0" text="Aeroport" />
+                              <TableColumn prefWidth="75.0" text="Nr locuri" />
+                          </columns>
+                        </TableView>
+                        <Button layoutX="927.0" layoutY="520.0" mnemonicParsing="false" onAction="#logOut" prefHeight="43.0" prefWidth="195.0" text="Logout">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </content></Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

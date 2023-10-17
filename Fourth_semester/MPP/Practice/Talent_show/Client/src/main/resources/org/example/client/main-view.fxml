@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="646.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.client.MainController">
+    <Button fx:id="logoutButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutButtonClicked" text="LOGOUT" />
+   <Label fx:id="configLabel" layoutX="375.0" layoutY="85.0" prefHeight="18.0" prefWidth="243.0" />
+    <TableView fx:id="clasamentTable" layoutX="14.0" layoutY="50.0" prefHeight="334.0" prefWidth="300.0">
+        <columns>
+            <TableColumn fx:id="idplayerColumn" prefWidth="189.59999980926514" text="jurry_id" />
+            <TableColumn fx:id="scoreColumn" prefWidth="189.59999980926514" text="score" />
+        </columns>
+    </TableView>
+   <TextField fx:id="poz1Label" layoutX="428.0" layoutY="129.0" prefHeight="26.0" prefWidth="63.0" />
+   <TextField fx:id="poz2Label" layoutX="428.0" layoutY="173.0" prefHeight="26.0" prefWidth="63.0" />
+   <Button fx:id="tryButton" layoutX="434.0" layoutY="225.0" mnemonicParsing="false" onAction="#tryButtonClicked" text="try" />
+   <Label fx:id="scoreLabel" layoutX="555.0" layoutY="155.0" prefHeight="18.0" prefWidth="42.0" />
+</AnchorPane>

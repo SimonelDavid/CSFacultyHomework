@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaProjectNetworking.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaProjectNetworking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProjectClientFx/JavaProjectNetworking.ProjectClientFx.iml" filepath="$PROJECT_DIR$/.idea/modules/ProjectClientFx/JavaProjectNetworking.ProjectClientFx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProjectClientFx/JavaProjectNetworking.ProjectClientFx.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ProjectClientFx/JavaProjectNetworking.ProjectClientFx.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProjectClientFx/JavaProjectNetworking.ProjectClientFx.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ProjectClientFx/JavaProjectNetworking.ProjectClientFx.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProjectModel/JavaProjectNetworking.ProjectModel.iml" filepath="$PROJECT_DIR$/.idea/modules/ProjectModel/JavaProjectNetworking.ProjectModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProjectModel/JavaProjectNetworking.ProjectModel.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ProjectModel/JavaProjectNetworking.ProjectModel.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProjectModel/JavaProjectNetworking.ProjectModel.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ProjectModel/JavaProjectNetworking.ProjectModel.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProjectNetworking/JavaProjectNetworking.ProjectNetworking.iml" filepath="$PROJECT_DIR$/.idea/modules/ProjectNetworking/JavaProjectNetworking.ProjectNetworking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProjectNetworking/JavaProjectNetworking.ProjectNetworking.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ProjectNetworking/JavaProjectNetworking.ProjectNetworking.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProjectNetworking/JavaProjectNetworking.ProjectNetworking.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ProjectNetworking/JavaProjectNetworking.ProjectNetworking.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProjectPersistance/JavaProjectNetworking.ProjectPersistance.iml" filepath="$PROJECT_DIR$/.idea/modules/ProjectPersistance/JavaProjectNetworking.ProjectPersistance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProjectPersistance/JavaProjectNetworking.ProjectPersistance.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ProjectPersistance/JavaProjectNetworking.ProjectPersistance.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProjectPersistance/JavaProjectNetworking.ProjectPersistance.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ProjectPersistance/JavaProjectNetworking.ProjectPersistance.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProjectServer/JavaProjectNetworking.ProjectServer.iml" filepath="$PROJECT_DIR$/.idea/modules/ProjectServer/JavaProjectNetworking.ProjectServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProjectServer/JavaProjectNetworking.ProjectServer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ProjectServer/JavaProjectNetworking.ProjectServer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProjectServer/JavaProjectNetworking.ProjectServer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ProjectServer/JavaProjectNetworking.ProjectServer.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProjectServices/JavaProjectNetworking.ProjectServices.iml" filepath="$PROJECT_DIR$/.idea/modules/ProjectServices/JavaProjectNetworking.ProjectServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProjectServices/JavaProjectNetworking.ProjectServices.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ProjectServices/JavaProjectNetworking.ProjectServices.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProjectServices/JavaProjectNetworking.ProjectServices.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ProjectServices/JavaProjectNetworking.ProjectServices.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaProjectNetworking.main.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaProjectNetworking.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaProjectNetworking.test.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaProjectNetworking.test.iml" />
+    </modules>
+  </component>
+</project>
