@@ -1,0 +1,8 @@
+use Briose
+go
+
+BEGIN TRANSACTION
+	UPDATE Briosa SET
+	nume='Briosaaa' WHERE id = 3
+	WAITFOR DELAY '00:00:7'
+ROLLBACK TRANSACTION

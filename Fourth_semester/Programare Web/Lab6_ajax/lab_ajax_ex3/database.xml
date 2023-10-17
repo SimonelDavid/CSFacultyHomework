@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inregistrari>
+  <inregistrare id="1">
+    <nume>John Doe</nume>
+    <telefon>555-1234</telefon>
+    <email>john.doe@example.com</email>
+  </inregistrare>
+  <inregistrare id="2">
+    <nume>Jane Doe</nume>
+    <telefon>555-5678</telefon>
+    <email>jane.doe@example.com</email>
+  </inregistrare>
+  <inregistrare id="3">
+    <nume>Bob Smith</nume>
+    <telefon>555-4321</telefon>
+    <email>bob.smith@example.com</email>
+  </inregistrare>
+  <inregistrare id="4">
+    <nume>Alice Smith</nume>
+    <telefon>555-8765</telefon>
+    <email>alice.smith@example.com</email>
+  </inregistrare>
+</inregistrari>

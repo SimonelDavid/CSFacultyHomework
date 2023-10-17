@@ -33,7 +33,7 @@ public class HelloApplication extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/resources/com/wms/wmsproject/gui/start-window.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/com/wms/wmsproject/gui/start-window.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         StartController controller = fxmlLoader.getController();
         controller.setService(applicationContext.getBean(Service.class));

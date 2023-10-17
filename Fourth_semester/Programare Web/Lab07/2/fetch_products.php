@@ -1,7 +1,7 @@
 <?php
-$servername = "127.0.0.1";
-$username = "postgres";
-$password = "postgres";
+$servername = "localhost";
+$username = "root";
+$password = "";
 $dbname = "Web";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -53,7 +53,7 @@ if ($result->num_rows > 0) {
     $total = $result->num_rows;
 
     if (($page * $noProducts) < $total) {
-        $nextPage = $page + 1;
+        $nextPage = $page;
         echo "<button><a href='fetch_products.php?noProducts=$number&page=$nextPage'>Next page</a><button>";
     }
 
